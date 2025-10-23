@@ -1,0 +1,22 @@
+﻿using System;
+
+namespace Core.Entities;
+
+using Base.Core.Entities;
+
+using System.Collections.Generic;
+
+public class Race : EntityObject
+{
+    public DateTime RaceStartTime { get; set; }
+
+    public TimeOnly RaceTime { get; set; }
+
+    public int          CompetitionId { get; set; }
+
+    public int     DriverId { get; set; }
+
+    public int  CarId { get; set; }
+
+    //TODO
+}

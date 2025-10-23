@@ -1,0 +1,73 @@
+<div class="container-fluid">
+  @if(loading == true) {
+  <div class="spinner-border" role="status">
+    <span class="sr-only"></span>
+  </div>
+  }
+  @if(examination != null) {
+
+  <table class="table">
+    <tbody>
+      <tr>
+        <th scope="col">SV-Number</th>
+        <td>{{examination.svNumber}}</td>
+      </tr>
+      <tr>
+        <th scope="col">First Name</th>
+        <td>{{examination.firstName}}</td>
+      </tr>
+      <tr>
+        <th scope="col">Last Name</th>
+        <td>{{examination.lastName}}</td>
+      </tr>
+      <tr>
+        <th scope="col">Examination date</th>
+        <td>{{examination.examinationDate| date:'medium'}}</td>
+      </tr>
+      @if (examination.medicalFindingsDate != null) {
+      <tr>
+        <th scope="col">Medical Findings Date</th>
+        <td>{{examination.medicalFindingsDate | date:'medium'}}</td>
+        }
+    </tbody>
+  </table>
+
+  <!--
+    <app-examination-data-stream [examination]="examination"></app-examination-data-stream>
+    -->
+
+  @for (stream of examination.dataStreams; track $index; let idx = $index) {
+
+  <div class="row">
+
+    <app-examination-data-stream [examination]="examination" [streamNo]="idx"></app-examination-data-stream>
+
+  </div>
+  }
+
+  <form>
+    <div class="form-group">
+      <label for="medicalFindings">Medical Findings</label>
+      <textarea class="form-control" id="medicalFindings" name="medicalFindings" required [(ngModel)]="medicalFindingsVal"
+        #medicalFindings="ngModel" placeholder="Enter medical findings" ></textarea>
+      @if(medicalFindings?.invalid && (medicalFindings?.dirty || medicalFindings?.touched)) {
+      <div class="alert alert-danger">
+        @if (medicalFindings?.errors?.['required']) {
+        <div>
+          A medical finding is required.
+        </div>
+        }
+        @if (medicalFindings?.errors?.['medicalFindingsInvalid']) {
+        <div>
+          This is not a valid medical finding.
+        </div>
+        }
+
+      </div>
+      }
+    </div>
+    <button [disabled]="medicalFindings?.invalid" (click)="onUpdateMedicalFindings()" type="submit"
+      class="btn btn-primary">Submit</button>
+
+  </form>
+  }

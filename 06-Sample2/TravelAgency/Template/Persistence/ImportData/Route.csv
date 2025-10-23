@@ -1,0 +1,7 @@
+﻿Name;TransportType;TransportInfo;Description;StartLocation;EndLocation
+Austria 1;Hotel;Sacher;Übernachtung;Wien;Wien
+Austria 1;Plane;Embraer E190;Transfer nach Innsbruck;Wien;Innsbruck
+Austria 1;Hotel;Rufis Hotel Innsbruck;Übernachtung;Innsbruck;Innsbruck
+Kreuzfahrt Mittelmeer;Plane;Embraer E190;Transfer to Venedig;Salzburg;Venedig
+Kreuzfahrt Mittelmeer;Ship;Queen Mary 2;Luxuskreuzfahrt;Venedig;Venedig
+Kreuzfahrt Mittelmeer;Plane;Embraer E190;Transfer Wien;Venedig;Salzburg

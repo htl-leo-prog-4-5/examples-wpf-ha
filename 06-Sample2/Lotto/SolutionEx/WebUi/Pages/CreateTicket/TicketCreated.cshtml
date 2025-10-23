@@ -1,0 +1,91 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebUi.Pages.CreateTicket.TicketCreatedModel
+@{
+    ViewData["Title"] = "Ticket Created";
+}
+
+<div class="row">
+    <h1 class="display-4">Ticket Created</h1>
+</div>
+
+
+<div>
+    <h4>Game</h4>
+    <hr/>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CurrentGame.DateFrom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CurrentGame.DateFrom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CurrentGame.DateTo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CurrentGame.DateTo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ticket.TicketNo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ticket.TicketNo)
+        </dd>
+    </dl>
+    <hr/>
+</div>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            No1
+        </th>
+        <th>
+            No2
+        </th>
+        <th>
+            No3
+        </th>
+        <th>
+            No4
+        </th>
+        <th>
+            No5
+        </th>
+        <th>
+            No6
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Ticket.Tips)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.No1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.No2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.No3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.No4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.No5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.No6)
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>

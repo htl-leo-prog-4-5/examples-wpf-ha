@@ -1,0 +1,16 @@
+﻿<Application x:Class="Style2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="Yellow" />
+        </Style>
+
+        <Style x:Key="ButtonBig" TargetType="{x:Type Button}">
+            <Setter Property="FontSize" Value="30" />
+        </Style>
+
+    </Application.Resources>
+</Application>

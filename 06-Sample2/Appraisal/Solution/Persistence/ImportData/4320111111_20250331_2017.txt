@@ -1,0 +1,25 @@
+Key;Value
+Patient;4320111111
+PatientName;Musterfrau
+Date;2025.03.31 20:17
+DataStreams;LeadI,LeadII,LeadIII
+LeadIName;Left
+LeadIPeriod;0.1
+LeadIData00001;0,0,0,0.1,0.2,0.25
+LeadIData00002;0.3,0.4,0.3,0.1,0
+LeadIIName;Right
+LeadIIPeriod;0.2
+LeadIIData00001;0
+LeadIIData00002;0.2
+LeadIIData00003;0.4
+LeadIIData00004;0.3
+LeadIIData00005;0.1
+LeadIIData00006;0
+LeadIIIName;Center
+LeadIIIPeriod;0.2
+LeadIIIData00001;0
+LeadIIIData00002;0.2
+LeadIIIData00003;0.4
+LeadIIIData00004;0.3
+LeadIIIData00005;0.1
+LeadIIIData00006;0

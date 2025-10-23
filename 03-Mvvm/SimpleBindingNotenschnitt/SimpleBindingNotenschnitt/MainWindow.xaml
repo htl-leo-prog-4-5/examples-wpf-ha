@@ -1,0 +1,34 @@
+﻿<Window x:Class="SimpleBindingNotenschnitt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleBindingNotenschnitt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local:Grades x:Key="AGrade" 
+                          Englisch="1" 
+                          Mathematik="1" 
+                          Deutsch="1"/>
+    </Window.Resources>
+
+    <StackPanel  DataContext="{StaticResource AGrade}" >
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Deutsch" Width="100"/>
+            <TextBox Width="50" Text="{Binding Path=Deutsch}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Mathematik" Width="100"/>
+            <TextBox Width="50" Text="{Binding Path=Mathematik}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Englisch" Width="100"/>
+            <TextBox Width="50" Text="{Binding Path=Englisch}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="1,2,0,0">
+            <Button Content="Berechnen" Click="Calculate_Click"/>
+        </StackPanel>
+        <Label x:Name="_resultAvg"></Label>
+        <Label x:Name="_resultKlausel"></Label>
+    </StackPanel></Window>

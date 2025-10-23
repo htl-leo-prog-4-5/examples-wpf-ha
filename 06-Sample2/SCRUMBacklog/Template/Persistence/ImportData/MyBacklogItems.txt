@@ -1,0 +1,1000 @@
+Name;Description;Date;Priority;Effort;TeamMembers;Comments
+Task 1 - first Task;Something TODO;01.01.2025;1;XS;Member 1, Member 2;Very easy
+Task 2;DOD: Hallo Welt;31.01.2025;2;S;Member 1, Member 2, Member 3;Comment 1
+Task 3;Long Text;19.02.2025;10;L;Member 1, Member 4;Comment 1, Comment 2
+Task 4;New Issue;22.02.2025;8;L;Member 3, Member 2;Comment1, Comment 3
+Task 5;UserStory;16.03.2025;3;XS;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 6;Something TODO;02.02.2025;7;XS;Member 1;Very important
+Task 7;DOD: Hallo Welt;07.03.2025;11;M;Member 2;
+Task 8;Long Text;23.02.2025;4;XL;Member 5;Very easy
+Task 9;New Issue;02.05.2025;10;XL;Member 1, Member 2;Comment 1
+Task 10;UserStory;23.04.2025;8;L;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 11;Something TODO;18.04.2025;3;XS;Member 1, Member 4;Comment1, Comment 3
+Task 12;DOD: Hallo Welt;31.03.2025;6;S;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 13;Long Text;30.03.2025;6;M;Member 1, Member 2;Very important
+Task 14;New Issue;07.03.2025;9;L;Member 1;
+Task 15;UserStory;09.02.2025;11;XL;Member 2;Very easy
+Task 16;Something TODO;05.05.2025;5;XS;Member 5;Comment 1
+Task 17;DOD: Hallo Welt;22.03.2025;5;S;Member 1, Member 2;Comment 1, Comment 2
+Task 18;Long Text;07.04.2025;5;L;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 19;New Issue;10.04.2025;7;L;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 20;UserStory;30.03.2025;7;XS;Member 3, Member 2;Very important
+Task 21;Something TODO;29.04.2025;7;XS;Member 1, Member 2;
+Task 22;DOD: Hallo Welt;22.03.2025;3;M;Member 1;Very easy
+Task 23;Long Text;11.02.2025;8;XL;Member 2;Comment 1
+Task 24;New Issue;27.03.2025;6;XL;Member 5;Comment 1, Comment 2
+Task 25;UserStory;25.04.2025;3;L;Member 1, Member 2;Comment1, Comment 3
+Task 26;;10.04.2025;2;XS;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 27;Something TODO;08.04.2025;4;S;Member 1, Member 4;Very important
+Task 28;DOD: Hallo Welt;09.02.2025;10;M;Member 3, Member 2;
+Task 29;Long Text;12.02.2025;8;L;Member 1, Member 2;Very easy
+Task 30;New Issue;02.03.2025;5;XL;Member 1;Comment 1
+Task 31;UserStory;24.03.2025;6;XS;Member 2;Comment 1, Comment 2
+Task 32;Something TODO;19.04.2025;4;S;Member 5;Comment1, Comment 3
+Task 33;DOD: Hallo Welt;22.04.2025;6;L;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 34;Long Text;12.02.2025;10;L;Member 1, Member 2, Member 3;Very important
+Task 35;New Issue;14.04.2025;7;XS;Member 1, Member 4;
+Task 36;UserStory;02.05.2025;3;XS;Member 3, Member 2;Very easy
+Task 37;Something TODO;27.03.2025;6;M;Member 1, Member 2;Comment 1
+Task 38;DOD: Hallo Welt;15.02.2025;10;XL;Member 1;Comment 1, Comment 2
+Task 39;Long Text;08.03.2025;4;XL;Member 2;Comment1, Comment 3
+Task 40;New Issue;05.03.2025;5;L;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 41;UserStory;07.03.2025;10;XS;Member 1, Member 2;Very important
+Task 42;Something TODO;25.03.2025;6;S;Member 1, Member 2, Member 3;
+Task 43;DOD: Hallo Welt;23.04.2025;4;M;Member 1, Member 4;Very easy
+Task 44;Long Text;18.04.2025;3;L;Member 3, Member 2;Comment 1
+Task 45;New Issue;01.05.2025;6;XL;Member 1, Member 2;Comment 1, Comment 2
+Task 46;UserStory;10.02.2025;5;XS;Member 1;Comment1, Comment 3
+Task 47;Something TODO;01.02.2025;3;S;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 48;DOD: Hallo Welt;15.02.2025;8;L;Member 5;Very important
+Task 49;Long Text;21.02.2025;7;L;Member 1, Member 2;
+Task 50;New Issue;03.03.2025;10;XS;Member 1, Member 2, Member 3;Very easy
+Task 51;UserStory;16.04.2025;4;XS;Member 1, Member 4;Comment 1
+Task 52;;02.05.2025;5;M;Member 3, Member 2;Comment 1, Comment 2
+Task 53;Something TODO;16.03.2025;6;XL;Member 1, Member 2;Comment1, Comment 3
+Task 54;DOD: Hallo Welt;27.02.2025;6;XL;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 55;Long Text;10.05.2025;6;L;Member 2;Very important
+Task 56;New Issue;10.03.2025;10;XS;Member 5;
+Task 57;UserStory;01.05.2025;3;S;Member 1, Member 2;Very easy
+Task 58;Something TODO;19.02.2025;11;M;Member 1, Member 2, Member 3;Comment 1
+Task 59;DOD: Hallo Welt;07.03.2025;2;L;Member 1, Member 4;Comment 1, Comment 2
+Task 60;Long Text;07.03.2025;8;XL;Member 3, Member 2;Comment1, Comment 3
+Task 61;New Issue;05.05.2025;5;XS;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 62;UserStory;04.03.2025;4;S;Member 1;Very important
+Task 63;Something TODO;08.02.2025;5;L;Member 2;
+Task 64;DOD: Hallo Welt;03.03.2025;5;L;Member 5;Very easy
+Task 65;Long Text;09.04.2025;7;XS;Member 1, Member 2;Comment 1
+Task 66;New Issue;24.02.2025;6;XS;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 67;UserStory;23.02.2025;8;M;Member 1, Member 4;Comment1, Comment 3
+Task 68;Something TODO;13.04.2025;2;XL;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 69;DOD: Hallo Welt;20.02.2025;3;XL;Member 1, Member 2;Very important
+Task 70;Long Text;06.05.2025;7;L;Member 1;
+Task 71;New Issue;09.05.2025;8;XS;Member 2;Very easy
+Task 72;UserStory;22.04.2025;5;S;Member 5;Comment 1
+Task 73;Something TODO;01.04.2025;6;M;Member 1, Member 2;Comment 1, Comment 2
+Task 74;DOD: Hallo Welt;08.04.2025;7;L;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 75;Long Text;10.05.2025;9;XL;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 76;New Issue;05.03.2025;6;XS;Member 3, Member 2;Very important
+Task 77;UserStory;09.02.2025;4;S;Member 1, Member 2;
+Task 78;;25.04.2025;10;L;Member 1;Very easy
+Task 79;Something TODO;03.04.2025;4;L;Member 2;Comment 1
+Task 80;DOD: Hallo Welt;05.03.2025;9;XS;Member 5;Comment 1, Comment 2
+Task 81;Long Text;04.05.2025;3;XS;Member 1, Member 2;Comment1, Comment 3
+Task 82;New Issue;29.03.2025;6;M;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 83;UserStory;26.03.2025;11;XL;Member 1, Member 4;Very important
+Task 84;Something TODO;03.05.2025;3;XL;Member 3, Member 2;
+Task 85;DOD: Hallo Welt;14.04.2025;3;L;Member 1, Member 2;
+Task 86;Long Text;29.03.2025;3;XS;Member 1;Very easy
+Task 87;New Issue;28.02.2025;4;S;Member 2;Comment 1
+Task 88;UserStory;03.05.2025;5;M;Member 5;Comment 1, Comment 2
+Task 89;Something TODO;02.03.2025;7;L;Member 1, Member 2;Comment1, Comment 3
+Task 90;DOD: Hallo Welt;24.04.2025;8;XL;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 91;Long Text;04.05.2025;5;XS;Member 1, Member 4;Very important
+Task 92;New Issue;09.03.2025;7;S;Member 3, Member 2;
+Task 93;UserStory;27.02.2025;4;L;Member 1, Member 2;Very easy
+Task 94;Something TODO;15.02.2025;2;L;Member 1;Comment 1
+Task 95;DOD: Hallo Welt;23.02.2025;8;XS;Member 2;Comment 1, Comment 2
+Task 96;Long Text;23.04.2025;4;XS;Member 5;Comment1, Comment 3
+Task 97;New Issue;03.05.2025;6;M;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 98;UserStory;31.01.2025;4;XL;Member 1, Member 2, Member 3;Very important
+Task 99;Something TODO;16.03.2025;10;XL;Member 1, Member 4;
+Task 100;DOD: Hallo Welt;12.04.2025;3;L;Member 3, Member 2;Very easy
+Task 101;Long Text;22.04.2025;5;XS;Member 1, Member 2;Comment 1
+Task 102;New Issue;13.03.2025;6;S;Member 1;Comment 1, Comment 2
+Task 103;UserStory;14.03.2025;10;M;Member 2;Comment1, Comment 3
+Task 104;;09.05.2025;7;L;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 105;Something TODO;28.03.2025;3;XL;Member 1, Member 2;Very important
+Task 106;DOD: Hallo Welt;31.01.2025;11;XS;Member 1, Member 2, Member 3;
+Task 107;Long Text;06.02.2025;4;S;Member 1, Member 4;Very easy
+Task 108;New Issue;09.03.2025;5;L;Member 3, Member 2;Comment 1
+Task 109;UserStory;26.04.2025;4;L;Member 1, Member 2;Comment 1, Comment 2
+Task 110;Something TODO;30.04.2025;8;XS;Member 1;Comment1, Comment 3
+Task 111;DOD: Hallo Welt;25.03.2025;9;XS;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 112;Long Text;21.03.2025;7;M;Member 5;Very important
+Task 113;New Issue;09.02.2025;9;XL;Member 1, Member 2;
+Task 114;UserStory;30.03.2025;10;XL;Member 1, Member 2, Member 3;Very easy
+Task 115;Something TODO;26.04.2025;9;L;Member 1, Member 4;Comment 1
+Task 116;DOD: Hallo Welt;09.04.2025;4;XS;Member 3, Member 2;Comment 1, Comment 2
+Task 117;Long Text;21.02.2025;5;S;Member 1, Member 2;Comment1, Comment 3
+Task 118;New Issue;09.04.2025;5;M;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 119;UserStory;07.04.2025;9;L;Member 2;Very important
+Task 120;Something TODO;05.03.2025;7;XL;Member 5;
+Task 121;DOD: Hallo Welt;11.03.2025;9;XS;Member 1, Member 2;Very easy
+Task 122;Long Text;29.03.2025;11;S;Member 1, Member 2, Member 3;Comment 1
+Task 123;New Issue;15.03.2025;5;L;Member 1, Member 4;Comment 1, Comment 2
+Task 124;UserStory;10.05.2025;4;L;Member 3, Member 2;Comment1, Comment 3
+Task 125;Something TODO;14.03.2025;4;XS;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 126;DOD: Hallo Welt;04.02.2025;10;XS;Member 1;Very important
+Task 127;Long Text;30.03.2025;10;M;Member 2;
+Task 128;New Issue;10.02.2025;5;XL;Member 5;Very easy
+Task 129;UserStory;25.03.2025;9;XL;Member 1, Member 2;Comment 1
+Task 130;;04.05.2025;9;L;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 131;Something TODO;21.03.2025;10;XS;Member 1, Member 4;Comment1, Comment 3
+Task 132;DOD: Hallo Welt;28.04.2025;10;S;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 133;Long Text;12.04.2025;6;M;Member 1, Member 2;Very important
+Task 134;New Issue;10.05.2025;4;L;Member 1;
+Task 135;UserStory;01.04.2025;10;XL;Member 2;Very easy
+Task 136;Something TODO;04.02.2025;3;XS;Member 5;Comment 1
+Task 137;DOD: Hallo Welt;04.02.2025;3;S;Member 1, Member 2;Comment 1, Comment 2
+Task 138;Long Text;04.02.2025;7;L;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 139;New Issue;17.04.2025;9;L;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 140;UserStory;29.04.2025;6;XS;Member 3, Member 2;Very important
+Task 141;Something TODO;22.03.2025;10;XS;Member 1, Member 2;
+Task 142;DOD: Hallo Welt;22.02.2025;5;M;Member 1;Very easy
+Task 143;Long Text;10.03.2025;8;XL;Member 2;Comment 1
+Task 144;New Issue;14.02.2025;10;XL;Member 5;Comment 1, Comment 2
+Task 145;UserStory;28.02.2025;9;L;Member 1, Member 2;Comment1, Comment 3
+Task 146;Something TODO;09.03.2025;2;XS;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 147;DOD: Hallo Welt;02.03.2025;8;S;Member 1, Member 4;Very important
+Task 148;Long Text;30.04.2025;4;M;Member 3, Member 2;
+Task 149;New Issue;04.03.2025;4;L;Member 1, Member 2;Very easy
+Task 150;UserStory;10.05.2025;7;XL;Member 1;Comment 1
+Task 151;Something TODO;04.04.2025;7;XS;Member 2;Comment 1, Comment 2
+Task 152;DOD: Hallo Welt;10.03.2025;5;S;Member 5;Comment1, Comment 3
+Task 153;Long Text;22.04.2025;3;L;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 154;New Issue;28.02.2025;9;L;Member 1, Member 2, Member 3;Very important
+Task 155;UserStory;06.05.2025;5;XS;Member 1, Member 4;
+Task 156;;05.03.2025;10;XS;Member 3, Member 2;Very easy
+Task 157;Something TODO;05.05.2025;4;M;Member 1, Member 2;Comment 1
+Task 158;DOD: Hallo Welt;02.05.2025;8;XL;Member 1;Comment 1, Comment 2
+Task 159;Long Text;25.04.2025;6;XL;Member 2;Comment1, Comment 3
+Task 160;New Issue;11.03.2025;9;L;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 161;UserStory;27.04.2025;2;XS;Member 1, Member 2;Very important
+Task 162;Something TODO;26.02.2025;7;S;Member 1, Member 2, Member 3;
+Task 163;DOD: Hallo Welt;24.03.2025;3;M;Member 1, Member 4;Very easy
+Task 164;Long Text;10.04.2025;7;L;Member 3, Member 2;Comment 1
+Task 165;New Issue;28.03.2025;10;XL;Member 1, Member 2;Comment 1, Comment 2
+Task 166;UserStory;06.03.2025;5;XS;Member 1;Comment1, Comment 3
+Task 167;Something TODO;24.04.2025;3;S;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 168;DOD: Hallo Welt;11.04.2025;10;L;Member 5;Very important
+Task 169;Long Text;21.03.2025;10;L;Member 1, Member 2;
+Task 170;New Issue;17.04.2025;11;XS;Member 1, Member 2, Member 3;Very easy
+Task 171;UserStory;28.02.2025;2;XS;Member 1, Member 4;Comment 1
+Task 172;Something TODO;12.03.2025;6;M;Member 3, Member 2;Comment 1, Comment 2
+Task 173;DOD: Hallo Welt;06.03.2025;6;XL;Member 1, Member 2;Comment1, Comment 3
+Task 174;Long Text;07.02.2025;10;XL;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 175;New Issue;07.02.2025;10;L;Member 2;Very important
+Task 176;UserStory;05.03.2025;10;XS;Member 5;
+Task 177;Something TODO;14.02.2025;6;S;Member 1, Member 2;Very easy
+Task 178;DOD: Hallo Welt;06.05.2025;10;M;Member 1, Member 2, Member 3;Comment 1
+Task 179;Long Text;02.05.2025;9;L;Member 1, Member 4;Comment 1, Comment 2
+Task 180;New Issue;14.04.2025;4;XL;Member 3, Member 2;Comment1, Comment 3
+Task 181;UserStory;03.04.2025;8;XS;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 182;;18.02.2025;9;S;Member 1;Very important
+Task 183;Something TODO;04.04.2025;5;L;Member 2;
+Task 184;DOD: Hallo Welt;08.05.2025;4;L;Member 5;Very easy
+Task 185;Long Text;19.03.2025;7;XS;Member 1, Member 2;Comment 1
+Task 186;New Issue;01.05.2025;6;XS;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 187;UserStory;07.03.2025;5;M;Member 1, Member 4;Comment1, Comment 3
+Task 188;Something TODO;15.04.2025;3;XL;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 189;DOD: Hallo Welt;16.04.2025;9;XL;Member 1, Member 2;Very important
+Task 190;Long Text;13.03.2025;9;L;Member 1;
+Task 191;New Issue;25.02.2025;10;XS;Member 2;Very easy
+Task 192;UserStory;22.02.2025;8;S;Member 5;Comment 1
+Task 193;Something TODO;27.03.2025;2;M;Member 1, Member 2;Comment 1, Comment 2
+Task 194;DOD: Hallo Welt;17.03.2025;5;L;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 195;Long Text;06.05.2025;7;XL;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 196;New Issue;11.04.2025;7;XS;Member 3, Member 2;Very important
+Task 197;UserStory;23.02.2025;10;S;Member 1, Member 2;
+Task 198;Something TODO;02.03.2025;6;L;Member 1;Very easy
+Task 199;DOD: Hallo Welt;12.04.2025;7;L;Member 2;Comment 1
+Task 200;Long Text;07.04.2025;2;XS;Member 5;Comment 1, Comment 2
+Task 201;New Issue;15.02.2025;10;XS;Member 1, Member 2;Comment1, Comment 3
+Task 202;UserStory;10.05.2025;2;M;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 203;Something TODO;17.03.2025;6;XL;Member 1, Member 4;Very important
+Task 204;DOD: Hallo Welt;01.04.2025;11;XL;Member 3, Member 2;
+Task 205;Long Text;28.04.2025;6;L;Member 1, Member 2;Very easy
+Task 206;New Issue;16.03.2025;7;XS;Member 1;Comment 1
+Task 207;UserStory;01.03.2025;7;S;Member 2;Comment 1, Comment 2
+Task 208;;08.03.2025;3;M;Member 5;Comment1, Comment 3
+Task 209;Something TODO;19.03.2025;4;L;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 210;DOD: Hallo Welt;01.02.2025;7;XL;Member 1, Member 2, Member 3;Very important
+Task 211;Long Text;10.02.2025;7;XS;Member 1, Member 4;
+Task 212;New Issue;08.03.2025;9;S;Member 3, Member 2;Very easy
+Task 213;UserStory;19.02.2025;4;L;Member 1, Member 2;Comment 1
+Task 214;Something TODO;15.02.2025;4;L;Member 1;Comment 1, Comment 2
+Task 215;DOD: Hallo Welt;14.04.2025;7;XS;Member 2;Comment1, Comment 3
+Task 216;Long Text;11.03.2025;5;XS;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 217;New Issue;03.04.2025;10;M;Member 1, Member 2;Very important
+Task 218;UserStory;08.03.2025;3;XL;Member 1, Member 2, Member 3;
+Task 219;Something TODO;04.03.2025;4;XL;Member 1, Member 4;Very easy
+Task 220;DOD: Hallo Welt;08.05.2025;8;L;Member 3, Member 2;Comment 1
+Task 221;Long Text;09.04.2025;7;XS;Member 1, Member 2;Comment 1, Comment 2
+Task 222;New Issue;23.03.2025;8;S;Member 1;Comment1, Comment 3
+Task 223;UserStory;15.03.2025;7;M;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 224;Something TODO;27.03.2025;9;L;Member 5;Very important
+Task 225;DOD: Hallo Welt;08.05.2025;6;XL;Member 1, Member 2;
+Task 226;Long Text;11.02.2025;3;XS;Member 1, Member 2, Member 3;Very easy
+Task 227;New Issue;22.04.2025;2;S;Member 1, Member 4;Comment 1
+Task 228;UserStory;07.04.2025;8;L;Member 3, Member 2;Comment 1, Comment 2
+Task 229;Something TODO;06.04.2025;8;L;Member 1, Member 2;Comment1, Comment 3
+Task 230;DOD: Hallo Welt;10.05.2025;9;XS;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 231;Long Text;16.02.2025;10;XS;Member 2;Very important
+Task 232;New Issue;17.04.2025;10;M;Member 5;
+Task 233;UserStory;09.03.2025;4;XL;Member 1, Member 2;Very easy
+Task 234;;08.05.2025;5;XL;Member 1, Member 2, Member 3;Comment 1
+Task 235;Something TODO;18.04.2025;7;L;Member 1, Member 4;Comment 1, Comment 2
+Task 236;DOD: Hallo Welt;06.03.2025;9;XS;Member 3, Member 2;Comment1, Comment 3
+Task 237;Long Text;01.05.2025;7;S;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 238;New Issue;15.02.2025;10;M;Member 1;Very important
+Task 239;UserStory;19.04.2025;6;L;Member 2;
+Task 240;Something TODO;07.04.2025;11;XL;Member 5;Very easy
+Task 241;DOD: Hallo Welt;23.02.2025;11;XS;Member 1, Member 2;Comment 1
+Task 242;Long Text;01.02.2025;7;S;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 243;New Issue;13.02.2025;9;L;Member 1, Member 4;Comment1, Comment 3
+Task 244;UserStory;03.04.2025;3;L;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 245;Something TODO;08.03.2025;10;XS;Member 1, Member 2;Very important
+Task 246;DOD: Hallo Welt;22.04.2025;5;XS;Member 1;
+Task 247;Long Text;15.02.2025;4;M;Member 2;Very easy
+Task 248;New Issue;24.03.2025;5;XL;Member 5;Comment 1
+Task 249;UserStory;24.04.2025;8;XL;Member 1, Member 2;Comment 1, Comment 2
+Task 250;Something TODO;05.03.2025;6;L;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 251;DOD: Hallo Welt;31.01.2025;6;XS;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 252;Long Text;25.04.2025;3;S;Member 3, Member 2;Very important
+Task 253;New Issue;18.03.2025;8;M;Member 1, Member 2;
+Task 254;UserStory;08.04.2025;9;L;Member 1;Very easy
+Task 255;Something TODO;05.04.2025;4;XL;Member 2;Comment 1
+Task 256;DOD: Hallo Welt;14.03.2025;9;XS;Member 5;Comment 1, Comment 2
+Task 257;Long Text;24.04.2025;2;S;Member 1, Member 2;Comment1, Comment 3
+Task 258;New Issue;13.03.2025;4;L;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 259;UserStory;19.03.2025;6;L;Member 1, Member 4;Very important
+Task 260;;12.03.2025;6;XS;Member 3, Member 2;
+Task 261;Something TODO;09.03.2025;10;XS;Member 1, Member 2;Very easy
+Task 262;DOD: Hallo Welt;25.03.2025;9;M;Member 1;Comment 1
+Task 263;Long Text;13.04.2025;5;XL;Member 2;Comment 1, Comment 2
+Task 264;New Issue;20.02.2025;3;XL;Member 5;Comment1, Comment 3
+Task 265;UserStory;09.05.2025;5;L;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 266;Something TODO;01.04.2025;11;XS;Member 1, Member 2, Member 3;Very important
+Task 267;DOD: Hallo Welt;01.04.2025;11;S;Member 1, Member 4;
+Task 268;Long Text;14.03.2025;5;M;Member 3, Member 2;Very easy
+Task 269;New Issue;03.05.2025;6;L;Member 1, Member 2;Comment 1
+Task 270;UserStory;06.04.2025;11;XL;Member 1;Comment 1, Comment 2
+Task 271;Something TODO;29.04.2025;6;XS;Member 2;Comment1, Comment 3
+Task 272;DOD: Hallo Welt;15.02.2025;11;S;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 273;Long Text;17.02.2025;9;L;Member 1, Member 2;Very important
+Task 274;New Issue;07.03.2025;2;L;Member 1, Member 2, Member 3;
+Task 275;UserStory;14.03.2025;9;XS;Member 1, Member 4;Very easy
+Task 276;Something TODO;10.05.2025;8;XS;Member 3, Member 2;Comment 1
+Task 277;DOD: Hallo Welt;31.01.2025;4;M;Member 1, Member 2;Comment 1, Comment 2
+Task 278;Long Text;14.02.2025;8;XL;Member 1;Comment1, Comment 3
+Task 279;New Issue;02.05.2025;9;XL;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 280;UserStory;06.02.2025;6;L;Member 5;Very important
+Task 281;Something TODO;12.03.2025;8;XS;Member 1, Member 2;
+Task 282;DOD: Hallo Welt;27.02.2025;5;S;Member 1, Member 2, Member 3;Very easy
+Task 283;Long Text;22.04.2025;4;M;Member 1, Member 4;Comment 1
+Task 284;New Issue;10.02.2025;3;L;Member 3, Member 2;Comment 1, Comment 2
+Task 285;UserStory;12.04.2025;11;XL;Member 1, Member 2;Comment1, Comment 3
+Task 286;;28.03.2025;4;XS;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 287;Something TODO;17.02.2025;5;S;Member 2;Very important
+Task 288;DOD: Hallo Welt;20.04.2025;3;L;Member 5;
+Task 289;Long Text;23.02.2025;3;L;Member 1, Member 2;Very easy
+Task 290;New Issue;17.03.2025;4;XS;Member 1, Member 2, Member 3;Comment 1
+Task 291;UserStory;27.02.2025;3;XS;Member 1, Member 4;Comment 1, Comment 2
+Task 292;Something TODO;01.02.2025;8;M;Member 3, Member 2;Comment1, Comment 3
+Task 293;DOD: Hallo Welt;22.02.2025;10;XL;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 294;Long Text;06.02.2025;4;XL;Member 1;Very important
+Task 295;New Issue;19.03.2025;5;L;Member 2;
+Task 296;UserStory;15.02.2025;2;XS;Member 5;Very easy
+Task 297;Something TODO;10.04.2025;3;S;Member 1, Member 2;Comment 1
+Task 298;DOD: Hallo Welt;07.02.2025;7;M;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 299;Long Text;14.03.2025;6;L;Member 1, Member 4;Comment1, Comment 3
+Task 300;New Issue;03.04.2025;5;XL;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 301;UserStory;01.04.2025;8;XS;Member 1, Member 2;Very important
+Task 302;Something TODO;11.04.2025;8;S;Member 1;
+Task 303;DOD: Hallo Welt;27.03.2025;8;L;Member 2;Very easy
+Task 304;Long Text;13.04.2025;8;L;Member 5;Comment 1
+Task 305;New Issue;03.05.2025;11;XS;Member 1, Member 2;Comment 1, Comment 2
+Task 306;UserStory;15.04.2025;9;XS;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 307;Something TODO;19.02.2025;7;M;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 308;DOD: Hallo Welt;11.03.2025;7;XL;Member 3, Member 2;Very important
+Task 309;Long Text;31.03.2025;6;XL;Member 1, Member 2;
+Task 310;New Issue;26.04.2025;2;L;Member 1;Very easy
+Task 311;UserStory;19.04.2025;9;XS;Member 2;Comment 1
+Task 312;;04.02.2025;5;S;Member 5;Comment 1, Comment 2
+Task 313;Something TODO;05.03.2025;11;M;Member 1, Member 2;Comment1, Comment 3
+Task 314;DOD: Hallo Welt;15.04.2025;2;L;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 315;Long Text;21.03.2025;8;XL;Member 1, Member 4;Very important
+Task 316;New Issue;07.03.2025;2;XS;Member 3, Member 2;
+Task 317;UserStory;04.04.2025;7;S;Member 1, Member 2;Very easy
+Task 318;Something TODO;01.05.2025;7;L;Member 1;Comment 1
+Task 319;DOD: Hallo Welt;02.02.2025;7;L;Member 2;Comment 1, Comment 2
+Task 320;Long Text;24.03.2025;4;XS;Member 5;Comment1, Comment 3
+Task 321;New Issue;12.02.2025;10;XS;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 322;UserStory;14.03.2025;10;M;Member 1, Member 2, Member 3;Very important
+Task 323;Something TODO;06.03.2025;9;XL;Member 1, Member 4;
+Task 324;DOD: Hallo Welt;26.04.2025;6;XL;Member 3, Member 2;Very easy
+Task 325;Long Text;12.03.2025;5;L;Member 1, Member 2;Comment 1
+Task 326;New Issue;28.04.2025;10;XS;Member 1;Comment 1, Comment 2
+Task 327;UserStory;24.02.2025;6;S;Member 2;Comment1, Comment 3
+Task 328;Something TODO;22.03.2025;4;M;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 329;DOD: Hallo Welt;03.05.2025;6;L;Member 1, Member 2;Very important
+Task 330;Long Text;15.02.2025;5;XL;Member 1, Member 2, Member 3;
+Task 331;New Issue;25.04.2025;9;XS;Member 1, Member 4;Very easy
+Task 332;UserStory;21.03.2025;4;S;Member 3, Member 2;Comment 1
+Task 333;Something TODO;03.05.2025;6;L;Member 1, Member 2;Comment 1, Comment 2
+Task 334;DOD: Hallo Welt;19.04.2025;5;L;Member 1;Comment1, Comment 3
+Task 335;Long Text;26.02.2025;11;XS;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 336;New Issue;27.02.2025;8;XS;Member 5;Very important
+Task 337;UserStory;25.03.2025;9;M;Member 1, Member 2;
+Task 338;;13.02.2025;10;XL;Member 1, Member 2, Member 3;Very easy
+Task 339;Something TODO;21.04.2025;5;XL;Member 1, Member 4;Comment 1
+Task 340;DOD: Hallo Welt;28.02.2025;3;L;Member 3, Member 2;Comment 1, Comment 2
+Task 341;Long Text;07.04.2025;9;XS;Member 1, Member 2;Comment1, Comment 3
+Task 342;New Issue;02.05.2025;6;S;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 343;UserStory;17.03.2025;9;M;Member 2;Very important
+Task 344;Something TODO;03.02.2025;7;L;Member 5;
+Task 345;DOD: Hallo Welt;20.04.2025;8;XL;Member 1, Member 2;Very easy
+Task 346;Long Text;11.03.2025;6;XS;Member 1, Member 2, Member 3;Comment 1
+Task 347;New Issue;03.02.2025;8;S;Member 1, Member 4;Comment 1, Comment 2
+Task 348;UserStory;30.04.2025;7;L;Member 3, Member 2;Comment1, Comment 3
+Task 349;Something TODO;22.02.2025;5;L;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 350;DOD: Hallo Welt;29.04.2025;6;XS;Member 1;Very important
+Task 351;Long Text;03.05.2025;3;XS;Member 2;
+Task 352;New Issue;11.04.2025;3;M;Member 5;Very easy
+Task 353;UserStory;10.05.2025;6;XL;Member 1, Member 2;Comment 1
+Task 354;Something TODO;28.04.2025;7;XL;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 355;DOD: Hallo Welt;01.02.2025;7;L;Member 1, Member 4;Comment1, Comment 3
+Task 356;Long Text;29.03.2025;3;XS;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 357;New Issue;19.02.2025;6;S;Member 1, Member 2;Very important
+Task 358;UserStory;25.04.2025;5;M;Member 1;
+Task 359;Something TODO;14.02.2025;5;L;Member 2;Very easy
+Task 360;DOD: Hallo Welt;06.03.2025;6;XL;Member 5;Comment 1
+Task 361;Long Text;25.03.2025;8;XS;Member 1, Member 2;Comment 1, Comment 2
+Task 362;New Issue;20.02.2025;8;S;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 363;UserStory;14.03.2025;8;L;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 364;;11.02.2025;7;L;Member 3, Member 2;Very important
+Task 365;Something TODO;03.03.2025;6;XS;Member 1, Member 2;
+Task 366;DOD: Hallo Welt;06.04.2025;10;XS;Member 1;Very easy
+Task 367;Long Text;02.03.2025;4;M;Member 2;Comment 1
+Task 368;New Issue;25.02.2025;2;XL;Member 5;Comment 1, Comment 2
+Task 369;UserStory;08.02.2025;5;XL;Member 1, Member 2;Comment1, Comment 3
+Task 370;Something TODO;07.02.2025;11;L;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 371;DOD: Hallo Welt;26.02.2025;7;XS;Member 1, Member 4;Very important
+Task 372;Long Text;09.03.2025;4;S;Member 3, Member 2;
+Task 373;New Issue;26.04.2025;6;M;Member 1, Member 2;Very easy
+Task 374;UserStory;26.02.2025;8;L;Member 1;Comment 1
+Task 375;Something TODO;29.04.2025;5;XL;Member 2;Comment 1, Comment 2
+Task 376;DOD: Hallo Welt;26.04.2025;8;XS;Member 5;Comment1, Comment 3
+Task 377;Long Text;27.03.2025;5;S;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 378;New Issue;03.02.2025;4;L;Member 1, Member 2, Member 3;Very important
+Task 379;UserStory;20.04.2025;9;L;Member 1, Member 4;
+Task 380;Something TODO;16.04.2025;6;XS;Member 3, Member 2;Very easy
+Task 381;DOD: Hallo Welt;05.04.2025;3;XS;Member 1, Member 2;Comment 1
+Task 382;Long Text;24.03.2025;5;M;Member 1;Comment 1, Comment 2
+Task 383;New Issue;27.04.2025;5;XL;Member 2;Comment1, Comment 3
+Task 384;UserStory;12.03.2025;4;XL;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 385;Something TODO;22.04.2025;7;L;Member 1, Member 2;Very important
+Task 386;DOD: Hallo Welt;03.05.2025;4;XS;Member 1, Member 2, Member 3;
+Task 387;Long Text;16.03.2025;2;S;Member 1, Member 4;Very easy
+Task 388;New Issue;11.03.2025;8;M;Member 3, Member 2;Comment 1
+Task 389;UserStory;15.04.2025;8;L;Member 1, Member 2;Comment 1, Comment 2
+Task 390;;30.04.2025;7;XL;Member 1;Comment1, Comment 3
+Task 391;Something TODO;20.03.2025;7;XS;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 392;DOD: Hallo Welt;06.04.2025;3;S;Member 5;Very important
+Task 393;Long Text;27.03.2025;8;L;Member 1, Member 2;
+Task 394;New Issue;10.03.2025;5;L;Member 1, Member 2, Member 3;Very easy
+Task 395;UserStory;17.03.2025;4;XS;Member 1, Member 4;Comment 1
+Task 396;Something TODO;23.04.2025;8;XS;Member 3, Member 2;Comment 1, Comment 2
+Task 397;DOD: Hallo Welt;01.03.2025;11;M;Member 1, Member 2;Comment1, Comment 3
+Task 398;Long Text;12.02.2025;10;XL;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 399;New Issue;24.03.2025;5;XL;Member 2;Very important
+Task 400;UserStory;13.02.2025;3;L;Member 5;
+Task 401;Something TODO;08.02.2025;9;XS;Member 1, Member 2;Very easy
+Task 402;DOD: Hallo Welt;14.04.2025;7;S;Member 1, Member 2, Member 3;Comment 1
+Task 403;Long Text;16.04.2025;11;M;Member 1, Member 4;Comment 1, Comment 2
+Task 404;New Issue;07.05.2025;10;L;Member 3, Member 2;Comment1, Comment 3
+Task 405;UserStory;18.02.2025;4;XL;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 406;Something TODO;04.02.2025;8;XS;Member 1;Very important
+Task 407;DOD: Hallo Welt;09.05.2025;4;S;Member 2;
+Task 408;Long Text;17.02.2025;2;L;Member 5;Very easy
+Task 409;New Issue;28.02.2025;7;L;Member 1, Member 2;Comment 1
+Task 410;UserStory;06.05.2025;3;XS;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 411;Something TODO;21.04.2025;6;XS;Member 1, Member 4;Comment1, Comment 3
+Task 412;DOD: Hallo Welt;29.04.2025;10;M;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 413;Long Text;01.05.2025;10;XL;Member 1, Member 2;Very important
+Task 414;New Issue;12.04.2025;11;XL;Member 1;
+Task 415;UserStory;14.03.2025;6;L;Member 2;Very easy
+Task 416;;05.04.2025;5;XS;Member 5;Comment 1
+Task 417;;22.03.2025;6;S;Member 1, Member 2;Comment 1, Comment 2
+Task 418;;24.03.2025;5;M;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 419;;19.04.2025;7;L;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 420;;13.03.2025;7;XL;Member 3, Member 2;Very important
+Task 421;;25.03.2025;6;XS;Member 1, Member 2;
+Task 422;;05.04.2025;5;S;Member 1;Very easy
+Task 423;;08.05.2025;4;L;Member 2;Comment 1
+Task 424;;07.02.2025;10;L;Member 5;Comment 1, Comment 2
+Task 425;;04.04.2025;9;XS;Member 1, Member 2;Comment1, Comment 3
+Task 426;;23.03.2025;2;XS;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 427;;02.03.2025;6;M;Member 1, Member 4;Very important
+Task 428;;24.04.2025;5;XL;Member 3, Member 2;
+Task 429;;22.02.2025;10;XL;Member 1, Member 2;Very easy
+Task 430;;01.03.2025;6;L;Member 1;Comment 1
+Task 431;;01.04.2025;3;XS;Member 2;Comment 1, Comment 2
+Task 432;;06.02.2025;2;S;Member 5;Comment1, Comment 3
+Task 433;;01.05.2025;7;M;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 434;;08.02.2025;7;L;Member 1, Member 2, Member 3;Very important
+Task 435;;15.03.2025;7;XL;Member 1, Member 4;
+Task 436;;09.04.2025;4;XS;Member 3, Member 2;Very easy
+Task 437;;28.02.2025;5;S;Member 1, Member 2;Comment 1
+Task 438;;09.04.2025;4;L;Member 1;Comment 1, Comment 2
+Task 439;;01.04.2025;4;L;Member 2;Comment1, Comment 3
+Task 440;;09.03.2025;2;XS;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 441;;28.03.2025;3;XS;Member 1, Member 2;Very important
+Task 442;;10.03.2025;3;M;Member 1, Member 2, Member 3;
+Task 443;;02.03.2025;3;XL;Member 1, Member 4;Very easy
+Task 444;;20.02.2025;3;XL;Member 3, Member 2;Comment 1
+Task 445;;08.04.2025;3;L;Member 1, Member 2;Comment 1, Comment 2
+Task 446;;04.04.2025;7;XS;Member 1;Comment1, Comment 3
+Task 447;;20.02.2025;6;S;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 448;;12.02.2025;9;M;Member 5;Very important
+Task 449;;04.02.2025;7;L;Member 1, Member 2;
+Task 450;;01.02.2025;4;XL;Member 1, Member 2, Member 3;Very easy
+Task 451;;02.05.2025;6;XS;Member 1, Member 4;Comment 1
+Task 452;;28.04.2025;11;S;Member 3, Member 2;Comment 1, Comment 2
+Task 453;;12.02.2025;2;L;Member 1, Member 2;Comment1, Comment 3
+Task 454;;06.03.2025;6;L;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 455;;02.05.2025;9;XS;Member 2;Very important
+Task 456;;22.04.2025;4;XS;Member 5;
+Task 457;;16.03.2025;8;M;Member 1, Member 2;Very easy
+Task 458;;23.04.2025;2;XL;Member 1, Member 2, Member 3;Comment 1
+Task 459;;13.04.2025;10;XL;Member 1, Member 4;Comment 1, Comment 2
+Task 460;;12.03.2025;11;L;Member 3, Member 2;Comment1, Comment 3
+Task 461;;19.02.2025;5;XS;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 462;;26.03.2025;11;S;Member 1;Very important
+Task 463;;02.04.2025;10;M;Member 2;
+Task 464;;27.04.2025;3;L;Member 5;Very easy
+Task 465;;25.04.2025;7;XL;Member 1, Member 2;Comment 1
+Task 466;;16.04.2025;11;XS;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 467;;05.05.2025;7;S;Member 1, Member 4;Comment1, Comment 3
+Task 468;;06.05.2025;4;L;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 469;;17.03.2025;5;L;Member 1, Member 2;Very important
+Task 470;;23.03.2025;6;XS;Member 1;
+Task 471;;07.05.2025;10;XS;Member 2;Very easy
+Task 472;;07.04.2025;10;M;Member 5;Comment 1
+Task 473;;01.04.2025;10;XL;Member 1, Member 2;Comment 1, Comment 2
+Task 474;;11.03.2025;2;XL;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 475;;06.05.2025;10;L;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 476;;26.03.2025;7;XS;Member 3, Member 2;Very important
+Task 477;;03.05.2025;4;S;Member 1, Member 2;
+Task 478;;02.03.2025;4;M;Member 1;Very easy
+Task 479;;30.04.2025;3;L;Member 2;Comment 1
+Task 480;;10.03.2025;6;XL;Member 5;Comment 1, Comment 2
+Task 481;;10.05.2025;10;XS;Member 1, Member 2;Comment1, Comment 3
+Task 482;;08.05.2025;10;S;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 483;;20.04.2025;9;L;Member 1, Member 4;Very important
+Task 484;;26.04.2025;3;L;Member 3, Member 2;
+Task 485;;01.02.2025;2;XS;Member 1, Member 2;Very easy
+Task 486;;12.04.2025;5;XS;Member 1;Comment 1
+Task 487;;01.05.2025;9;M;Member 2;Comment 1, Comment 2
+Task 488;;08.04.2025;2;XL;Member 5;Comment1, Comment 3
+Task 489;;11.03.2025;10;XL;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 490;;20.02.2025;5;L;Member 1, Member 2, Member 3;Very important
+Task 491;;22.03.2025;3;XS;Member 1, Member 4;
+Task 492;;10.02.2025;3;S;Member 3, Member 2;Very easy
+Task 493;;17.02.2025;9;M;Member 1, Member 2;Comment 1
+Task 494;;13.04.2025;3;L;Member 1;Comment 1, Comment 2
+Task 495;;24.02.2025;4;XL;Member 2;Comment1, Comment 3
+Task 496;;02.04.2025;4;XS;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 497;;08.03.2025;8;S;Member 1, Member 2;Very important
+Task 498;;18.04.2025;2;L;Member 1, Member 2, Member 3;
+Task 499;;11.02.2025;9;L;Member 1, Member 4;Very easy
+Task 500;;25.03.2025;8;XS;Member 3, Member 2;Comment 1
+Task 501;;29.03.2025;7;XS;Member 1, Member 2;Comment 1, Comment 2
+Task 502;;11.02.2025;7;M;Member 1;Comment1, Comment 3
+Task 503;;10.05.2025;8;XL;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 504;;11.02.2025;3;XL;Member 5;Very important
+Task 505;;27.03.2025;7;L;Member 1, Member 2;
+Task 506;;01.02.2025;8;XS;Member 1, Member 2, Member 3;Very easy
+Task 507;;30.04.2025;7;S;Member 1, Member 4;Comment 1
+Task 508;;18.02.2025;9;M;Member 3, Member 2;Comment 1, Comment 2
+Task 509;;04.03.2025;5;L;Member 1, Member 2;Comment1, Comment 3
+Task 510;;09.04.2025;8;XL;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 511;;02.03.2025;7;XS;Member 2;Very important
+Task 512;;08.05.2025;6;S;Member 5;
+Task 513;;05.02.2025;5;L;Member 1, Member 2;Very easy
+Task 514;;10.02.2025;10;L;Member 1, Member 2, Member 3;Comment 1
+Task 515;;19.04.2025;2;XS;Member 1, Member 4;Comment 1, Comment 2
+Task 516;;04.05.2025;8;XS;Member 3, Member 2;Comment1, Comment 3
+Task 517;;05.03.2025;10;M;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 518;;22.03.2025;3;XL;Member 1;Very important
+Task 519;;06.05.2025;5;XL;Member 2;
+Task 520;;24.02.2025;9;L;Member 5;Very easy
+Task 521;;06.02.2025;10;XS;Member 1, Member 2;Comment 1
+Task 522;;10.05.2025;11;S;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 523;;10.02.2025;6;M;Member 1, Member 4;Comment1, Comment 3
+Task 524;;20.04.2025;6;L;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 525;;05.02.2025;9;XL;Member 1, Member 2;Very important
+Task 526;;15.03.2025;5;XS;Member 1;
+Task 527;;17.04.2025;6;S;Member 2;Very easy
+Task 528;;10.04.2025;3;L;Member 5;Comment 1
+Task 529;;19.02.2025;9;L;Member 1, Member 2;Comment 1, Comment 2
+Task 530;;21.03.2025;10;XS;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 531;;04.03.2025;6;XS;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 532;;05.02.2025;3;M;Member 3, Member 2;Very important
+Task 533;;28.04.2025;7;XL;Member 1, Member 2;
+Task 534;;08.02.2025;2;XL;Member 1;Very easy
+Task 535;;16.04.2025;10;L;Member 2;Comment 1
+Task 536;;20.04.2025;2;XS;Member 5;Comment 1, Comment 2
+Task 537;;06.04.2025;4;S;Member 1, Member 2;Comment1, Comment 3
+Task 538;;07.04.2025;7;M;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 539;;04.02.2025;9;L;Member 1, Member 4;Very important
+Task 540;;05.02.2025;3;XL;Member 3, Member 2;
+Task 541;;12.04.2025;3;XS;Member 1, Member 2;Very easy
+Task 542;;26.02.2025;11;S;Member 1;Comment 1
+Task 543;;05.05.2025;10;L;Member 2;Comment 1, Comment 2
+Task 544;;21.03.2025;10;L;Member 5;Comment1, Comment 3
+Task 545;;05.04.2025;4;XS;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 546;;21.02.2025;6;XS;Member 1, Member 2, Member 3;Very important
+Task 547;;14.02.2025;4;M;Member 1, Member 4;
+Task 548;;19.04.2025;3;XL;Member 3, Member 2;Very easy
+Task 549;;18.04.2025;11;XL;Member 1, Member 2;Comment 1
+Task 550;;07.04.2025;3;L;Member 1;Comment 1, Comment 2
+Task 551;;26.04.2025;5;XS;Member 2;Comment1, Comment 3
+Task 552;;14.03.2025;8;S;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 553;;16.04.2025;5;M;Member 1, Member 2;Very important
+Task 554;;14.04.2025;3;L;Member 1, Member 2, Member 3;
+Task 555;;01.03.2025;7;XL;Member 1, Member 4;Very easy
+Task 556;;05.02.2025;11;XS;Member 3, Member 2;Comment 1
+Task 557;;08.02.2025;10;S;Member 1, Member 2;Comment 1, Comment 2
+Task 558;;07.02.2025;6;L;Member 1;Comment1, Comment 3
+Task 559;;10.02.2025;9;L;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 560;;17.03.2025;11;XS;Member 5;Very important
+Task 561;;22.04.2025;6;XS;Member 1, Member 2;
+Task 562;;06.03.2025;6;M;Member 1, Member 2, Member 3;Very easy
+Task 563;;21.03.2025;8;XL;Member 1, Member 4;Comment 1
+Task 564;;08.03.2025;9;XL;Member 3, Member 2;Comment 1, Comment 2
+Task 565;;20.02.2025;9;L;Member 1, Member 2;Comment1, Comment 3
+Task 566;;14.02.2025;6;XS;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 567;;31.01.2025;8;S;Member 2;Very important
+Task 568;;18.04.2025;3;M;Member 5;
+Task 569;;23.04.2025;6;L;Member 1, Member 2;Very easy
+Task 570;;19.02.2025;10;XL;Member 1, Member 2, Member 3;Comment 1
+Task 571;;12.02.2025;3;XS;Member 1, Member 4;Comment 1, Comment 2
+Task 572;;20.02.2025;6;S;Member 3, Member 2;Comment1, Comment 3
+Task 573;;03.04.2025;5;L;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 574;;15.04.2025;5;L;Member 1;Very important
+Task 575;;04.04.2025;6;XS;Member 2;
+Task 576;;15.04.2025;4;XS;Member 5;Very easy
+Task 577;;01.03.2025;6;M;Member 1, Member 2;Comment 1
+Task 578;;08.03.2025;2;XL;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 579;;23.02.2025;9;XL;Member 1, Member 4;Comment1, Comment 3
+Task 580;;05.02.2025;9;L;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 581;;02.05.2025;7;XS;Member 1, Member 2;Very important
+Task 582;;27.02.2025;9;S;Member 1;
+Task 583;;10.02.2025;8;M;Member 2;Very easy
+Task 584;;01.03.2025;3;L;Member 5;Comment 1
+Task 585;;20.03.2025;9;XL;Member 1, Member 2;Comment 1, Comment 2
+Task 586;;23.03.2025;10;XS;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 587;;29.03.2025;7;S;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 588;;16.04.2025;3;L;Member 3, Member 2;Very important
+Task 589;;10.03.2025;6;L;Member 1, Member 2;
+Task 590;;12.04.2025;4;XS;Member 1;Very easy
+Task 591;;10.03.2025;5;XS;Member 2;Comment 1
+Task 592;;05.03.2025;5;M;Member 5;Comment 1, Comment 2
+Task 593;;27.04.2025;8;XL;Member 1, Member 2;Comment1, Comment 3
+Task 594;;21.03.2025;5;XL;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 595;;11.04.2025;6;L;Member 1, Member 4;Very important
+Task 596;;20.03.2025;5;XS;Member 3, Member 2;
+Task 597;;25.02.2025;4;S;Member 1, Member 2;Very easy
+Task 598;;13.04.2025;4;M;Member 1;Comment 1
+Task 599;;26.03.2025;3;L;Member 2;Comment 1, Comment 2
+Task 600;;11.03.2025;5;XL;Member 5;Comment1, Comment 3
+Task 601;;04.03.2025;5;XS;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 602;;17.02.2025;4;S;Member 1, Member 2, Member 3;Very important
+Task 603;;25.02.2025;6;L;Member 1, Member 4;
+Task 604;;05.03.2025;3;L;Member 3, Member 2;Very easy
+Task 605;;08.03.2025;9;XS;Member 1, Member 2;Comment 1
+Task 606;;19.04.2025;6;XS;Member 1;Comment 1, Comment 2
+Task 607;;16.04.2025;10;M;Member 2;Comment1, Comment 3
+Task 608;;03.04.2025;5;XL;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 609;;11.03.2025;3;XL;Member 1, Member 2;Very important
+Task 610;;01.05.2025;2;L;Member 1, Member 2, Member 3;
+Task 611;;07.03.2025;5;XS;Member 1, Member 4;Very easy
+Task 612;;20.03.2025;11;S;Member 3, Member 2;Comment 1
+Task 613;;19.04.2025;10;M;Member 1, Member 2;Comment 1, Comment 2
+Task 614;;24.04.2025;6;L;Member 1;Comment1, Comment 3
+Task 615;;17.04.2025;3;XL;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 616;;24.02.2025;10;XS;Member 5;Very important
+Task 617;;03.02.2025;7;S;Member 1, Member 2;
+Task 618;;10.03.2025;3;L;Member 1, Member 2, Member 3;Very easy
+Task 619;;14.03.2025;8;L;Member 1, Member 4;Comment 1
+Task 620;;02.03.2025;9;XS;Member 3, Member 2;Comment 1, Comment 2
+Task 621;;07.02.2025;9;XS;Member 1, Member 2;Comment1, Comment 3
+Task 622;;25.03.2025;7;M;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 623;;23.04.2025;3;XL;Member 2;Very important
+Task 624;;15.03.2025;9;XL;Member 5;
+Task 625;;19.02.2025;7;L;Member 1, Member 2;Very easy
+Task 626;;06.02.2025;6;XS;Member 1, Member 2, Member 3;Comment 1
+Task 627;;09.05.2025;7;S;Member 1, Member 4;Comment 1, Comment 2
+Task 628;;31.01.2025;8;M;Member 3, Member 2;Comment1, Comment 3
+Task 629;;21.03.2025;4;L;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 630;;08.04.2025;11;XL;Member 1;Very important
+Task 631;;21.03.2025;11;XS;Member 2;
+Task 632;;22.03.2025;5;S;Member 5;Very easy
+Task 633;;15.02.2025;6;L;Member 1, Member 2;Comment 1
+Task 634;;28.03.2025;4;L;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 635;;31.03.2025;9;XS;Member 1, Member 4;Comment1, Comment 3
+Task 636;;31.03.2025;4;XS;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 637;;09.05.2025;5;M;Member 1, Member 2;Very important
+Task 638;;25.02.2025;9;XL;Member 1;
+Task 639;;29.04.2025;7;XL;Member 2;Very easy
+Task 640;;15.03.2025;8;L;Member 5;Comment 1
+Task 641;;28.04.2025;8;XS;Member 1, Member 2;Comment 1, Comment 2
+Task 642;;10.05.2025;7;S;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 643;;01.04.2025;9;M;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 644;;24.03.2025;7;L;Member 3, Member 2;Very important
+Task 645;;18.03.2025;6;XL;Member 1, Member 2;
+Task 646;;22.02.2025;10;XS;Member 1;Very easy
+Task 647;;26.03.2025;6;S;Member 2;Comment 1
+Task 648;;23.03.2025;5;L;Member 5;Comment 1, Comment 2
+Task 649;;11.04.2025;4;L;Member 1, Member 2;Comment1, Comment 3
+Task 650;;30.04.2025;7;XS;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 651;;10.02.2025;9;XS;Member 1, Member 4;Very important
+Task 652;;01.03.2025;11;M;Member 3, Member 2;
+Task 653;;09.05.2025;11;XL;Member 1, Member 2;Very easy
+Task 654;;05.03.2025;4;XL;Member 1;Comment 1
+Task 655;;08.03.2025;4;L;Member 2;Comment 1, Comment 2
+Task 656;;15.03.2025;11;XS;Member 5;Comment1, Comment 3
+Task 657;;24.03.2025;7;S;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 658;;10.05.2025;3;M;Member 1, Member 2, Member 3;Very important
+Task 659;;19.02.2025;9;L;Member 1, Member 4;
+Task 660;;09.05.2025;3;XL;Member 3, Member 2;Very easy
+Task 661;;28.03.2025;6;XS;Member 1, Member 2;Comment 1
+Task 662;;06.02.2025;6;S;Member 1;Comment 1, Comment 2
+Task 663;;02.05.2025;8;L;Member 2;Comment1, Comment 3
+Task 664;;13.03.2025;8;L;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 665;;12.03.2025;8;XS;Member 1, Member 2;Very important
+Task 666;;26.02.2025;9;XS;Member 1, Member 2, Member 3;
+Task 667;;24.02.2025;11;M;Member 1, Member 4;Very easy
+Task 668;;29.03.2025;10;XL;Member 3, Member 2;Comment 1
+Task 669;;25.03.2025;3;XL;Member 1, Member 2;Comment 1, Comment 2
+Task 670;;05.04.2025;4;L;Member 1;Comment1, Comment 3
+Task 671;;13.03.2025;9;XS;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 672;;16.04.2025;7;S;Member 5;Very important
+Task 673;;06.02.2025;7;M;Member 1, Member 2;
+Task 674;;01.03.2025;2;L;Member 1, Member 2, Member 3;Very easy
+Task 675;;13.02.2025;10;XL;Member 1, Member 4;Comment 1
+Task 676;;13.02.2025;10;XS;Member 3, Member 2;Comment 1, Comment 2
+Task 677;;18.02.2025;10;S;Member 1, Member 2;Comment1, Comment 3
+Task 678;;03.05.2025;8;L;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 679;;30.04.2025;6;L;Member 2;Very important
+Task 680;;02.05.2025;7;XS;Member 5;
+Task 681;;13.03.2025;3;XS;Member 1, Member 2;Very easy
+Task 682;;27.04.2025;6;M;Member 1, Member 2, Member 3;Comment 1
+Task 683;;12.04.2025;7;XL;Member 1, Member 4;Comment 1, Comment 2
+Task 684;;05.03.2025;3;XL;Member 3, Member 2;Comment1, Comment 3
+Task 685;;30.04.2025;7;L;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 686;;10.03.2025;10;XS;Member 1;Very important
+Task 687;;02.04.2025;4;S;Member 2;
+Task 688;;04.05.2025;6;M;Member 5;Very easy
+Task 689;;20.02.2025;9;L;Member 1, Member 2;Comment 1
+Task 690;;25.04.2025;9;XL;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 691;;20.03.2025;2;XS;Member 1, Member 4;Comment1, Comment 3
+Task 692;;10.03.2025;7;S;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 693;;01.03.2025;7;L;Member 1, Member 2;Very important
+Task 694;;08.03.2025;5;L;Member 1;
+Task 695;;19.03.2025;4;XS;Member 2;Very easy
+Task 696;;07.04.2025;4;XS;Member 5;Comment 1
+Task 697;;03.04.2025;3;M;Member 1, Member 2;Comment 1, Comment 2
+Task 698;;23.02.2025;5;XL;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 699;;02.05.2025;8;XL;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 700;;10.03.2025;7;L;Member 3, Member 2;Very important
+Task 701;;06.04.2025;6;XS;Member 1, Member 2;
+Task 702;;09.04.2025;10;S;Member 1;Very easy
+Task 703;;27.04.2025;4;M;Member 2;Comment 1
+Task 704;;12.03.2025;11;L;Member 5;Comment 1, Comment 2
+Task 705;;27.04.2025;9;XL;Member 1, Member 2;Comment1, Comment 3
+Task 706;;19.03.2025;7;XS;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 707;;01.03.2025;7;S;Member 1, Member 4;Very important
+Task 708;;25.03.2025;6;L;Member 3, Member 2;
+Task 709;;06.04.2025;2;L;Member 1, Member 2;Very easy
+Task 710;;02.04.2025;6;XS;Member 1;Comment 1
+Task 711;;18.02.2025;4;XS;Member 2;Comment 1, Comment 2
+Task 712;;19.02.2025;8;M;Member 5;Comment1, Comment 3
+Task 713;;19.04.2025;4;XL;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 714;;25.04.2025;6;XL;Member 1, Member 2, Member 3;Very important
+Task 715;;20.02.2025;2;L;Member 1, Member 4;
+Task 716;;01.03.2025;4;XS;Member 3, Member 2;Very easy
+Task 717;;22.04.2025;3;S;Member 1, Member 2;Comment 1
+Task 718;;06.05.2025;4;M;Member 1;Comment 1, Comment 2
+Task 719;;01.05.2025;7;L;Member 2;Comment1, Comment 3
+Task 720;;05.04.2025;2;XL;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 721;;17.03.2025;2;XS;Member 1, Member 2;Very important
+Task 722;;02.04.2025;6;S;Member 1, Member 2, Member 3;
+Task 723;;14.03.2025;8;L;Member 1, Member 4;Very easy
+Task 724;;07.03.2025;8;L;Member 3, Member 2;Comment 1
+Task 725;;14.03.2025;10;XS;Member 1, Member 2;Comment 1, Comment 2
+Task 726;;28.04.2025;7;XS;Member 1;Comment1, Comment 3
+Task 727;;25.02.2025;8;M;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 728;;22.02.2025;3;XL;Member 5;Very important
+Task 729;;28.03.2025;4;XL;Member 1, Member 2;
+Task 730;;10.05.2025;10;L;Member 1, Member 2, Member 3;Very easy
+Task 731;;15.02.2025;6;XS;Member 1, Member 4;Comment 1
+Task 732;;12.02.2025;3;S;Member 3, Member 2;Comment 1, Comment 2
+Task 733;;28.04.2025;9;M;Member 1, Member 2;Comment1, Comment 3
+Task 734;;13.03.2025;2;L;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 735;;15.03.2025;8;XL;Member 2;Very important
+Task 736;;24.04.2025;5;XS;Member 5;
+Task 737;;01.02.2025;2;S;Member 1, Member 2;Very easy
+Task 738;;13.04.2025;9;L;Member 1, Member 2, Member 3;Comment 1
+Task 739;;30.03.2025;6;L;Member 1, Member 4;Comment 1, Comment 2
+Task 740;;23.03.2025;5;XS;Member 3, Member 2;Comment1, Comment 3
+Task 741;;29.04.2025;8;XS;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 742;;02.03.2025;4;M;Member 1;Very important
+Task 743;;27.02.2025;9;XL;Member 2;
+Task 744;;11.02.2025;6;XL;Member 5;Very easy
+Task 745;;09.05.2025;4;L;Member 1, Member 2;Comment 1
+Task 746;;07.02.2025;5;XS;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 747;;23.02.2025;3;S;Member 1, Member 4;Comment1, Comment 3
+Task 748;;07.02.2025;9;M;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 749;;03.02.2025;7;L;Member 1, Member 2;Very important
+Task 750;;07.02.2025;7;XL;Member 1;
+Task 751;;27.04.2025;8;XS;Member 2;Very easy
+Task 752;;11.03.2025;6;S;Member 5;Comment 1
+Task 753;;18.03.2025;6;L;Member 1, Member 2;Comment 1, Comment 2
+Task 754;;14.04.2025;9;L;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 755;;23.03.2025;8;XS;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 756;;12.02.2025;2;XS;Member 3, Member 2;Very important
+Task 757;;23.02.2025;4;M;Member 1, Member 2;
+Task 758;;23.03.2025;5;XL;Member 1;Very easy
+Task 759;;05.04.2025;10;XL;Member 2;Comment 1
+Task 760;;03.04.2025;3;L;Member 5;Comment 1, Comment 2
+Task 761;;05.02.2025;11;XS;Member 1, Member 2;Comment1, Comment 3
+Task 762;;27.02.2025;9;S;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 763;;06.02.2025;4;M;Member 1, Member 4;Very important
+Task 764;;13.04.2025;8;L;Member 3, Member 2;
+Task 765;;12.04.2025;8;XL;Member 1, Member 2;Very easy
+Task 766;;04.03.2025;10;XS;Member 1;Comment 1
+Task 767;;02.05.2025;8;S;Member 2;Comment 1, Comment 2
+Task 768;;13.03.2025;4;L;Member 5;Comment1, Comment 3
+Task 769;;22.04.2025;4;L;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 770;;02.05.2025;10;XS;Member 1, Member 2, Member 3;Very important
+Task 771;;18.03.2025;6;XS;Member 1, Member 4;
+Task 772;;31.01.2025;6;M;Member 3, Member 2;Very easy
+Task 773;;05.02.2025;5;XL;Member 1, Member 2;Comment 1
+Task 774;;17.04.2025;10;XL;Member 1;Comment 1, Comment 2
+Task 775;;02.02.2025;7;L;Member 2;Comment1, Comment 3
+Task 776;;05.02.2025;5;XS;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 777;;07.04.2025;8;S;Member 1, Member 2;Very important
+Task 778;;09.05.2025;6;M;Member 1, Member 2, Member 3;
+Task 779;;06.03.2025;5;L;Member 1, Member 4;Very easy
+Task 780;;02.05.2025;10;XL;Member 3, Member 2;Comment 1
+Task 781;;10.02.2025;4;XS;Member 1, Member 2;Comment 1, Comment 2
+Task 782;;04.02.2025;5;S;Member 1;Comment1, Comment 3
+Task 783;;06.04.2025;5;L;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 784;;04.02.2025;3;L;Member 5;Very important
+Task 785;;08.03.2025;3;XS;Member 1, Member 2;
+Task 786;;16.02.2025;7;XS;Member 1, Member 2, Member 3;Very easy
+Task 787;;28.03.2025;8;M;Member 1, Member 4;Comment 1
+Task 788;;23.03.2025;2;XL;Member 3, Member 2;Comment 1, Comment 2
+Task 789;;05.02.2025;10;XL;Member 1, Member 2;Comment1, Comment 3
+Task 790;;22.03.2025;9;L;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 791;;20.04.2025;3;XS;Member 2;Very important
+Task 792;;25.03.2025;5;S;Member 5;
+Task 793;;12.03.2025;6;M;Member 1, Member 2;Very easy
+Task 794;;16.03.2025;10;L;Member 1, Member 2, Member 3;Comment 1
+Task 795;;26.02.2025;5;XL;Member 1, Member 4;Comment 1, Comment 2
+Task 796;;01.04.2025;10;XS;Member 3, Member 2;Comment1, Comment 3
+Task 797;;26.02.2025;3;S;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 798;;01.03.2025;3;L;Member 1;Very important
+Task 799;;11.02.2025;5;L;Member 2;
+Task 800;;13.03.2025;7;XS;Member 5;Very easy
+Task 801;;10.05.2025;6;XS;Member 1, Member 2;Comment 1
+Task 802;;04.02.2025;4;M;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 803;;05.05.2025;7;XL;Member 1, Member 4;Comment1, Comment 3
+Task 804;;09.02.2025;4;XL;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 805;;03.05.2025;4;L;Member 1, Member 2;Very important
+Task 806;;20.03.2025;7;XS;Member 1;
+Task 807;;12.04.2025;7;S;Member 2;Very easy
+Task 808;;17.03.2025;6;M;Member 5;Comment 1
+Task 809;;21.02.2025;2;L;Member 1, Member 2;Comment 1, Comment 2
+Task 810;;17.04.2025;7;XL;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 811;;25.02.2025;10;XS;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 812;;29.04.2025;8;S;Member 3, Member 2;Very important
+Task 813;;02.03.2025;9;L;Member 1, Member 2;
+Task 814;;13.03.2025;3;L;Member 1;Very easy
+Task 815;;28.03.2025;4;XS;Member 2;Comment 1
+Task 816;;14.02.2025;6;XS;Member 5;Comment 1, Comment 2
+Task 817;;04.05.2025;9;M;Member 1, Member 2;Comment1, Comment 3
+Task 818;;30.03.2025;4;XL;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 819;;10.05.2025;10;XL;Member 1, Member 4;Very important
+Task 820;;27.03.2025;8;L;Member 3, Member 2;
+Task 821;;21.03.2025;6;XS;Member 1, Member 2;Very easy
+Task 822;;05.05.2025;7;S;Member 1;Comment 1
+Task 823;;11.04.2025;6;M;Member 2;Comment 1, Comment 2
+Task 824;;07.03.2025;5;L;Member 5;Comment1, Comment 3
+Task 825;;07.05.2025;8;XL;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 826;;12.04.2025;5;XS;Member 1, Member 2, Member 3;Very important
+Task 827;;01.02.2025;3;S;Member 1, Member 4;
+Task 828;;27.03.2025;8;L;Member 3, Member 2;Very easy
+Task 829;;03.03.2025;9;L;Member 1, Member 2;Comment 1
+Task 830;;10.03.2025;5;XS;Member 1;Comment 1, Comment 2
+Task 831;;16.04.2025;8;XS;Member 2;Comment1, Comment 3
+Task 832;;25.02.2025;9;M;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 833;;10.02.2025;2;XL;Member 1, Member 2;Very important
+Task 834;;05.05.2025;11;XL;Member 1, Member 2, Member 3;
+Task 835;;19.04.2025;5;L;Member 1, Member 4;Very easy
+Task 836;;13.03.2025;10;XS;Member 3, Member 2;Comment 1
+Task 837;;23.03.2025;8;S;Member 1, Member 2;Comment 1, Comment 2
+Task 838;;12.03.2025;10;M;Member 1;Comment1, Comment 3
+Task 839;;29.04.2025;8;L;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 840;;07.03.2025;7;XL;Member 5;Very important
+Task 841;;05.03.2025;3;XS;Member 1, Member 2;
+Task 842;;12.04.2025;4;S;Member 1, Member 2, Member 3;Very easy
+Task 843;;11.02.2025;7;L;Member 1, Member 4;Comment 1
+Task 844;;06.02.2025;8;L;Member 3, Member 2;Comment 1, Comment 2
+Task 845;;22.04.2025;8;XS;Member 1, Member 2;Comment1, Comment 3
+Task 846;;21.04.2025;8;XS;Member 1;Comment 1, Comment 2, Comment 3, Comment 4
+Task 847;;04.02.2025;6;M;Member 2;Very important
+Task 848;;19.02.2025;5;XL;Member 5;
+Task 849;;21.04.2025;7;XL;Member 1, Member 2;Very easy
+Task 850;;05.02.2025;3;L;Member 1, Member 2, Member 3;Comment 1
+Task 851;;10.02.2025;5;XS;Member 1, Member 4;Comment 1, Comment 2
+Task 852;;14.03.2025;7;S;Member 3, Member 2;Comment1, Comment 3
+Task 853;;25.03.2025;5;M;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 854;;24.02.2025;6;L;Member 1;Very important
+Task 855;;05.05.2025;6;XL;Member 2;
+Task 856;;31.03.2025;9;XS;Member 5;Very easy
+Task 857;;24.02.2025;11;S;Member 1, Member 2;Comment 1
+Task 858;;12.03.2025;5;L;Member 1, Member 2, Member 3;Comment 1, Comment 2
+Task 859;;06.04.2025;5;L;Member 1, Member 4;Comment1, Comment 3
+Task 860;;07.03.2025;6;XS;Member 3, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 861;;23.03.2025;10;XS;Member 1, Member 2;Very important
+Task 862;;03.02.2025;10;M;Member 1;
+Task 863;;03.02.2025;4;XL;Member 2;Very easy
+Task 864;;03.04.2025;5;XL;Member 5;Comment 1
+Task 865;;01.05.2025;10;L;Member 1, Member 2;Comment 1, Comment 2
+Task 866;;25.04.2025;4;XS;Member 1, Member 2, Member 3;Comment1, Comment 3
+Task 867;;20.04.2025;10;S;Member 1, Member 4;Comment 1, Comment 2, Comment 3, Comment 4
+Task 868;;02.04.2025;11;M;Member 3, Member 2;Very important
+Task 869;;15.04.2025;8;L;Member 1, Member 2;
+Task 870;;19.04.2025;7;XL;Member 1;Very easy
+Task 871;;07.02.2025;3;XS;Member 2;Comment 1
+Task 872;;01.04.2025;8;S;Member 5;Comment 1, Comment 2
+Task 873;;23.03.2025;2;L;Member 1, Member 2;Comment1, Comment 3
+Task 874;;24.02.2025;11;L;Member 1, Member 2, Member 3;Comment 1, Comment 2, Comment 3, Comment 4
+Task 875;;07.03.2025;4;XS;Member 1, Member 4;Very important
+Task 876;;29.04.2025;5;XS;Member 3, Member 2;
+Task 877;;01.02.2025;10;M;Member 1, Member 2;Very easy
+Task 878;;05.04.2025;8;XL;Member 1;Comment 1
+Task 879;;07.02.2025;3;XL;Member 2;Comment 1, Comment 2
+Task 880;;01.05.2025;2;L;Member 5;Comment1, Comment 3
+Task 881;;16.02.2025;4;XS;Member 1, Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 882;;09.04.2025;9;S;Member 1, Member 2, Member 3;Very important
+Task 883;;25.04.2025;11;M;Member 1, Member 4;
+Task 884;;05.03.2025;2;L;Member 3, Member 2;Very easy
+Task 885;;23.03.2025;5;XL;Member 1, Member 2;Comment 1
+Task 886;;01.02.2025;8;XS;Member 1;Comment 1, Comment 2
+Task 887;;27.03.2025;8;S;Member 2;Comment1, Comment 3
+Task 888;;28.02.2025;10;L;Member 5;Comment 1, Comment 2, Comment 3, Comment 4
+Task 889;;01.05.2025;2;L;Member 1, Member 2;Very important
+Task 890;;26.03.2025;5;XS;Member 1, Member 2, Member 3;
+Task 891;;03.02.2025;4;XS;Member 1, Member 4;Very easy
+Task 892;;20.03.2025;9;M;Member 3, Member 2;Comment 1
+Task 893;;09.05.2025;4;XL;Member 1, Member 2;Comment 1, Comment 2
+Task 894;;09.04.2025;4;XL;Member 1;Comment1, Comment 3
+Task 895;;02.02.2025;9;L;Member 2;Comment 1, Comment 2, Comment 3, Comment 4
+Task 896;;16.02.2025;10;XS;Member 5;Very important
+Task 897;;04.04.2025;4;S;Member 1, Member 2;
+Task 898;;13.03.2025;9;M;Member 1, Member 2, Member 3;Very easy
+Task 899;;02.04.2025;5;L;Member 1, Member 4;Comment 1
+Task 900;;12.04.2025;9;XL;Member 3, Member 2;Comment 1, Comment 2
+Task 901;;02.03.2025;;;;
+Task 902;;08.04.2025;;;;
+Task 903;;07.02.2025;;;;
+Task 904;;02.02.2025;;;;
+Task 905;;03.05.2025;;;;
+Task 906;;27.02.2025;;;;
+Task 907;;10.03.2025;;;;
+Task 908;;26.04.2025;;;;
+Task 909;;10.05.2025;;;;
+Task 910;;21.03.2025;;;;
+Task 911;;16.02.2025;;;;
+Task 912;;15.03.2025;;;;
+Task 913;;02.04.2025;;;;
+Task 914;;30.04.2025;;;;
+Task 915;;26.02.2025;;;;
+Task 916;;14.02.2025;;;;
+Task 917;;29.04.2025;;;;
+Task 918;;05.03.2025;;;;
+Task 919;;15.03.2025;;;;
+Task 920;;05.03.2025;;;;
+Task 921;;10.05.2025;;;;
+Task 922;;09.05.2025;;;;
+Task 923;;08.03.2025;;;;
+Task 924;;20.03.2025;;;;
+Task 925;;10.02.2025;;;;
+Task 926;;24.04.2025;;;;
+Task 927;;21.03.2025;;;;
+Task 928;;17.04.2025;;;;
+Task 929;;09.02.2025;;;;
+Task 930;;21.03.2025;;;;
+Task 931;;15.02.2025;;;;
+Task 932;;29.04.2025;;;;
+Task 933;;21.04.2025;;;;
+Task 934;;08.04.2025;;;;
+Task 935;;10.02.2025;;;;
+Task 936;;25.04.2025;;;;
+Task 937;;11.02.2025;;;;
+Task 938;;06.03.2025;;;;
+Task 939;;17.03.2025;;;;
+Task 940;;18.02.2025;;;;
+Task 941;;21.02.2025;;;;
+Task 942;;09.04.2025;;;;
+Task 943;;27.02.2025;;;;
+Task 944;;03.03.2025;;;;
+Task 945;;13.03.2025;;;;
+Task 946;;23.04.2025;;;;
+Task 947;;18.03.2025;;;;
+Task 948;;24.03.2025;;;;
+Task 949;;29.03.2025;;;;
+Task 950;;17.02.2025;;;;
+Task 951;;18.03.2025;;;;
+Task 952;;20.03.2025;;;;
+Task 953;;08.03.2025;;;;
+Task 954;;07.05.2025;;;;
+Task 955;;06.04.2025;;;;
+Task 956;;28.03.2025;;;;
+Task 957;;07.04.2025;;;;
+Task 958;;01.05.2025;;;;
+Task 959;;05.04.2025;;;;
+Task 960;;02.02.2025;;;;
+Task 961;;20.04.2025;;;;
+Task 962;;27.03.2025;;;;
+Task 963;;10.05.2025;;;;
+Task 964;;24.04.2025;;;;
+Task 965;;28.03.2025;;;;
+Task 966;;25.03.2025;;;;
+Task 967;;04.02.2025;;;;
+Task 968;;06.03.2025;;;;
+Task 969;;21.02.2025;;;;
+Task 970;;14.04.2025;;;;
+Task 971;;30.04.2025;;;;
+Task 972;;25.03.2025;;;;
+Task 973;;06.02.2025;;;;
+Task 974;;15.02.2025;;;;
+Task 975;;15.02.2025;;;;
+Task 976;;08.03.2025;;;;
+Task 977;;17.04.2025;;;;
+Task 978;;02.05.2025;;;;
+Task 979;;09.04.2025;;;;
+Task 980;;22.03.2025;;;;
+Task 981;;26.03.2025;;;;
+Task 982;;01.04.2025;;;;
+Task 983;;30.04.2025;;;;
+Task 984;;22.02.2025;;;;
+Task 985;;25.02.2025;;;;
+Task 986;;31.03.2025;;;;
+Task 987;;17.02.2025;;;;
+Task 988;;20.04.2025;;;;
+Task 989;;20.03.2025;;;;
+Task 990;;09.05.2025;;;;
+Task 991;;07.05.2025;;;;
+Task 992;;08.05.2025;;;;
+Task 993;;27.02.2025;;;;
+Task 994;;03.02.2025;;;;
+Task 995;;25.03.2025;;;;
+Task 996;;18.04.2025;;;;
+Task 997;;14.02.2025;;;;
+Task 998;;02.05.2025;;;;
+Task 999;;19.03.2025;;;;

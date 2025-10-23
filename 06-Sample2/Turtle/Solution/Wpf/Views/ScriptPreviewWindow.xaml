@@ -1,0 +1,41 @@
+﻿<Window x:Class="Wpf.Views.ScriptPreviewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf"
+        xmlns:viewModels="clr-namespace:Wpf.ViewModels;assembly=Wpf.ViewModels"
+        xmlns:controls="clr-namespace:Wpf.Controls"
+        d:DataContext="{d:DesignInstance Type=viewModels:ScriptPreviewViewModel}"
+        mc:Ignorable="d"
+        Title="Script Preview" Height="350" Width="400">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="10,10,10,10">
+            <UniformGrid Columns="2">
+                <Label Content="Name:" />
+                <TextBlock Text="{Binding Script.Name}" />
+
+                <Label Content="Description:" />
+                <TextBlock Text="{Binding Script.Description}" />
+
+                <Label Content="CreationDate:" />
+                <TextBlock Text="{Binding Script.CreationDate}" />
+            </UniformGrid>
+        </StackPanel>
+
+        <controls:ScriptPreviewControl Grid.Row="1" Margin="10,0,10,10" BorderThickness="1" BorderBrush="Black"
+                                       Moves="{Binding Moves}">
+        </controls:ScriptPreviewControl>
+
+        <UniformGrid Grid.Row="2" Columns="4" Margin="5">
+            <Button Content="Close" Margin="5" Command="{Binding CloseCommand}" />
+        </UniformGrid>
+    </Grid>
+</Window>

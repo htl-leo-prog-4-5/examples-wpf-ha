@@ -1,0 +1,65 @@
+﻿<Window x:Class="WinUIWpf.Views.ShowBookingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WinUIWpf.Views" xmlns:viewmodels="clr-namespace:WinUIWpf.ViewModels"
+        d:DataContext="{d:DesignInstance Type=viewmodels:ShowBookingWindowViewModel}"
+        mc:Ignorable="d"
+        Title="Buchungen anzeigen" Height="400" Width="350">
+
+    <Window.Resources>
+        <Style x:Key="GridColumn" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="Padding" Value="5"></Setter>
+        </Style>
+        <Style x:Key="NumberColumn" TargetType="TextBlock" BasedOn="{StaticResource GridColumn}">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+        <Style x:Key="TextColumn" TargetType="TextBlock" BasedOn="{StaticResource GridColumn}">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="10"></Setter>
+            <Setter Property="BorderBrush" Value="Green"></Setter>
+        </Style>
+
+    </Window.Resources>
+
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+            <Label>Spind:</Label>
+            <Label Content="{Binding LockerNo}" />
+
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Width="100" Command="{Binding Path=CloseCommand}">Zurück</Button>
+        </StackPanel>
+        <DataGrid Grid.Row="1"
+                  Margin="10"
+                  SelectedItem="{Binding SelectedLocker}"
+                  ItemsSource="{Binding Bookings}"
+                  CanUserAddRows="False"
+                  IsReadOnly="True"
+                  AutoGenerateColumns="False"
+                  VerticalAlignment="Stretch"
+                  HorizontalContentAlignment="Stretch"
+                  SelectionMode="Single"
+                  Validation.ErrorTemplate="{x:Null}"
+                  Height="auto"
+                  Loaded="Window_Loaded">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=From, StringFormat=\{0:dd.MM.yyyy\}}" Header="Von"
+                                    ElementStyle="{StaticResource TextColumn}" />
+                <DataGridTextColumn Binding="{Binding Path=To, StringFormat=\{0:dd.MM.yyyy\}}" Header="Bis"
+                                    ElementStyle="{StaticResource TextColumn}" />
+                <DataGridTextColumn Binding="{Binding Path=Pupil.FirstName}" Header="Vorname"
+                                    ElementStyle="{StaticResource TextColumn}" />
+                <DataGridTextColumn Binding="{Binding Path=Pupil.LastName}" Header="Nachname"
+                                    ElementStyle="{StaticResource TextColumn}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+
+</Window>

@@ -1,0 +1,5 @@
+Key;Value
+Description;Demo data for two gaussian distribution
+Origin;DEMO
+DataFile;Gaussian2xDistributionX_Data.txt
+CreationDate;2025.02.07

@@ -1,0 +1,14 @@
+Standard-EKG in Ruhe, 12-Kanal-Ableitung.
+
+Rhythmus: Sinusrhythmus mit gelegentlichen Watschelschlägen.
+Frequenz: 110 bpm (leicht tachykard – vermutlich bedingt durch Aufregung beim Anblick von Dagobert Ducks Portemonnaie).
+PQ-Zeit: 0,12 s
+QRS-Komplex: Normal konfiguriert, jedoch mit gelegentlichen "Quak-Extrasystolen" in Ableitung II.
+ST-Strecke: unauffällig – kein Hinweis auf Ischämie oder Geflügel-Infarkt.
+T-Welle: leicht spitz in Ableitung V1–V3 – möglicherweise Zeichen einer akuten Aufregung (oder spontaner Federsträubung).
+
+Besonderheiten:
+
+    Herzstromachse im linken Oberquadranten – typisch bei Wasservögeln mit hohem emotionalen Wellengang.
+    Rhythmus zeigt gelegentlich ein Muster, das an "Comic-Karotissynkope" erinnert – typisch bei emotionalen Ausrastern (siehe letzte Episode).
+    Keine Anzeichen einer A-Flatter (aber deutlicher Hinweis auf A-Quaken).

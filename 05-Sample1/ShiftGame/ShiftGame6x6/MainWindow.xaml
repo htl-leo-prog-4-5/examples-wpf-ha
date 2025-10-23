@@ -1,0 +1,117 @@
+﻿<Window x:Class="ShiftGame6x6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShiftGame6x6"
+        mc:Ignorable="d"
+        Title="Shift Game" Height="450" Width="525">
+    <Window.Resources>
+        <local:ShiftGame x:Key="AShiftGame" />
+    </Window.Resources>
+
+    <Grid DataContext="{StaticResource AShiftGame}">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" FontSize="50" Content="{Binding Field00}"
+                Command="{Binding SetField00Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="0" Grid.Column="1" FontSize="50" Content="{Binding Field01}"
+                Command="{Binding SetField01Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="0" Grid.Column="2" FontSize="50" Content="{Binding Field02}"
+                Command="{Binding SetField02Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="0" Grid.Column="3" FontSize="50" Content="{Binding Field03}"
+                Command="{Binding SetField03Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="0" Grid.Column="4" FontSize="50" Content="{Binding Field04}"
+                Command="{Binding SetField04Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="0" Grid.Column="5" FontSize="50" Content="{Binding Field05}"
+                Command="{Binding SetField05Command}" Margin="1,1,1,1" />
+
+        <Button Grid.Row="1" Grid.Column="0" FontSize="50" Content="{Binding Field10}"
+                Command="{Binding SetField10Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="1" Grid.Column="1" FontSize="50" Content="{Binding Field11}"
+                Command="{Binding SetField11Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="1" Grid.Column="2" FontSize="50" Content="{Binding Field12}"
+                Command="{Binding SetField12Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="1" Grid.Column="3" FontSize="50" Content="{Binding Field13}"
+                Command="{Binding SetField13Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="1" Grid.Column="4" FontSize="50" Content="{Binding Field14}"
+                Command="{Binding SetField14Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="1" Grid.Column="5" FontSize="50" Content="{Binding Field15}"
+                Command="{Binding SetField15Command}" Margin="1,1,1,1" />
+
+        <Button Grid.Row="2" Grid.Column="0" FontSize="50" Content="{Binding Field20}"
+                Command="{Binding SetField20Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="2" Grid.Column="1" FontSize="50" Content="{Binding Field21}"
+                Command="{Binding SetField21Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="2" Grid.Column="2" FontSize="50" Content="{Binding Field22}"
+                Command="{Binding SetField22Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="2" Grid.Column="3" FontSize="50" Content="{Binding Field23}"
+                Command="{Binding SetField23Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="2" Grid.Column="4" FontSize="50" Content="{Binding Field24}"
+                Command="{Binding SetField24Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="2" Grid.Column="5" FontSize="50" Content="{Binding Field25}"
+                Command="{Binding SetField25Command}" Margin="1,1,1,1" />
+
+        <Button Grid.Row="3" Grid.Column="0" FontSize="50" Content="{Binding Field30}"
+                Command="{Binding SetField30Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="3" Grid.Column="1" FontSize="50" Content="{Binding Field31}"
+                Command="{Binding SetField31Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="3" Grid.Column="2" FontSize="50" Content="{Binding Field32}"
+                Command="{Binding SetField32Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="3" Grid.Column="3" FontSize="50" Content="{Binding Field33}"
+                Command="{Binding SetField33Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="3" Grid.Column="4" FontSize="50" Content="{Binding Field34}"
+                Command="{Binding SetField34Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="3" Grid.Column="5" FontSize="50" Content="{Binding Field35}"
+                Command="{Binding SetField35Command}" Margin="1,1,1,1" />
+
+        <Button Grid.Row="4" Grid.Column="0" FontSize="50" Content="{Binding Field40}"
+                Command="{Binding SetField40Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="4" Grid.Column="1" FontSize="50" Content="{Binding Field41}"
+                Command="{Binding SetField41Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="4" Grid.Column="2" FontSize="50" Content="{Binding Field42}"
+                Command="{Binding SetField42Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="4" Grid.Column="3" FontSize="50" Content="{Binding Field43}"
+                Command="{Binding SetField43Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="4" Grid.Column="4" FontSize="50" Content="{Binding Field44}"
+                Command="{Binding SetField44Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="4" Grid.Column="5" FontSize="50" Content="{Binding Field45}"
+                Command="{Binding SetField45Command}" Margin="1,1,1,1" />
+
+        <Button Grid.Row="5" Grid.Column="0" FontSize="50" Content="{Binding Field50}"
+                Command="{Binding SetField50Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="5" Grid.Column="1" FontSize="50" Content="{Binding Field51}"
+                Command="{Binding SetField51Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="5" Grid.Column="2" FontSize="50" Content="{Binding Field52}"
+                Command="{Binding SetField52Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="5" Grid.Column="3" FontSize="50" Content="{Binding Field53}"
+                Command="{Binding SetField53Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="5" Grid.Column="4" FontSize="50" Content="{Binding Field54}"
+                Command="{Binding SetField54Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="5" Grid.Column="5" FontSize="50" Content="{Binding Field55}"
+                Command="{Binding SetField55Command}" Margin="1,1,1,1" />
+
+        <StackPanel Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3">
+            <StackPanel Orientation="Horizontal">
+                <Label>Züge:</Label>
+                <Label Content="{Binding MoveCount}" />
+            </StackPanel>
+            <Button Content="New Game" Command="{Binding NewGameCommand}" Margin="1,1,1,1" />
+        </StackPanel>
+    </Grid>
+</Window>

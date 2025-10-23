@@ -1,0 +1,97 @@
+﻿@page
+@model WebApp.Pages.Customers.EditModel
+
+@{
+    ViewData["Title"] = "Bearbeiten";
+}
+
+<h1>Bearbeite @Model.Customer.FirstName @Model.Customer.LastName</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Customer.FirstName" class="control-label"></label>
+                <input asp-for="Customer.FirstName" class="form-control" />
+                <span asp-validation-for="Customer.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.LastName" class="control-label"></label>
+                <input asp-for="Customer.LastName" class="form-control" />
+                <span asp-validation-for="Customer.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.EmailAddress" class="control-label"></label>
+                <input asp-for="Customer.EmailAddress" class="form-control" />
+                <span asp-validation-for="Customer.EmailAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.CreditCardNumber" class="control-label"></label>
+                <input asp-for="Customer.CreditCardNumber" class="form-control" />
+                <span asp-validation-for="Customer.CreditCardNumber" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Customer.Id" />
+            <div class="form-group">
+                <input type="submit" value="Speichern" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<hr />
+<h4>Zimmerbuchungen</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Von
+            </th>
+            <th>
+                Bis
+            </th>
+            <th>
+                Zimmer
+            </th>
+            <th>
+                Zimmertyp
+            </th>
+            <th>
+                Anzahl Übernachtungen
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Bookings)
+        {
+            <tr>
+                <td>
+                    @item.From.ToShortDateString()
+                </td>
+                <td>
+                    @item.To?.ToShortDateString()
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Room!.RoomNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Room!.RoomType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Days)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-page="./Index">Zurück</a>
+</div>
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

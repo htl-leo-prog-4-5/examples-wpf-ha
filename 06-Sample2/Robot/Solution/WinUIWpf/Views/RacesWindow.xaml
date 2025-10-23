@@ -1,0 +1,62 @@
+﻿<Window x:Class="WinUIWpf.Views.RacesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        d:DataContext="{d:DesignInstance Type=viewModels:RacesViewModel}"
+        xmlns:local="clr-namespace:WinUIWpf"
+        xmlns:viewModels="clr-namespace:WinUIWpf.ViewModels;assembly=WinUIWpf.ViewModels"
+        mc:Ignorable="d"
+        Title="Races" Height="528" Width="583">
+
+    <DockPanel>
+        <UniformGrid DockPanel.Dock ="Top" Columns="1" HorizontalAlignment="Stretch" Margin="10">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Style="{StaticResource Header}">Races</TextBlock>
+            </StackPanel>
+        </UniformGrid>
+
+        <UniformGrid DockPanel.Dock ="Top" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,0">
+            <Label Content="Name:" />
+            <TextBlock Text="{Binding CompetitionSummary.Name}" />
+        </UniformGrid>
+        <UniformGrid DockPanel.Dock ="Top" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,0">
+            <Label Content="First race:" />
+            <TextBlock Text="{Binding CompetitionSummary.FirstRace, StringFormat={}{0:yyyy.MM.dd HH.mm}}" />
+        </UniformGrid>
+        <UniformGrid DockPanel.Dock ="Top" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,0">
+            <Label Content="Last race:" />
+            <TextBlock Text="{Binding CompetitionSummary.LastRace, StringFormat={}{0:yyyy.MM.dd HH.mm}}" />
+        </UniformGrid>
+        <UniformGrid DockPanel.Dock ="Top" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,0">
+            <Label Content="Races:" />
+            <TextBlock Text="{Binding CompetitionSummary.RaceCount}" />
+        </UniformGrid>
+
+        <UniformGrid DockPanel.Dock="Right" Rows="4">
+            <Button Command="{Binding EditRaceCommand}" Style="{StaticResource ActionButton}">Edit</Button>
+            <Button Command="{Binding DeleteRaceCommand}" Style="{StaticResource DeleteButton}">Delete</Button>
+        </UniformGrid>
+
+        <DataGrid Margin="10" Grid.Row="2" ItemsSource="{Binding Races}" 
+                  SelectedItem="{Binding SelectedRace}" 
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=Driver.Name}" Header="Driver"
+                                    ElementStyle="{StaticResource StringColumn}">
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Car.Name}" Header="Car"
+                                    ElementStyle="{StaticResource StringColumn}">
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=RaceStartTime, StringFormat={}{0:yyyy.MM.dd HH.mm}}" Header="Start"
+                                    ElementStyle="{StaticResource DateColumn}">
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=RaceTime, StringFormat={}{0:mm:ss}}" Header="Time"
+                                    ElementStyle="{StaticResource DateColumn}">
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

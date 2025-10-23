@@ -1,0 +1,23 @@
+﻿<Window x:Class="DataTemplate1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        xmlns:viewModels="clr-namespace:DataTemplate1">
+
+    <Window.DataContext>
+        <viewModels:MyDataContext />
+    </Window.DataContext>
+
+    <ListBox Width="400" Margin="10" ItemsSource="{Binding SomeData}">
+        <ListBox.ItemTemplate>
+            <DataTemplate>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{Binding StringData}" />
+                    <TextBlock Text="{Binding Path=IntData}" />
+                    <CheckBox IsChecked="{Binding Path=BoolData}" />
+                </StackPanel>
+            </DataTemplate>
+        </ListBox.ItemTemplate>
+    </ListBox>
+
+</Window>

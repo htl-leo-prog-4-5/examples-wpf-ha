@@ -1,0 +1,44 @@
+﻿<Window x:Class="WinUIWpf.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        d:DataContext="{d:DesignInstance Type=viewModels:MainViewModel}"
+        xmlns:local="clr-namespace:WinUIWpf"
+        xmlns:viewModels="clr-namespace:WinUIWpf.ViewModels;assembly=WinUIWpf.ViewModels"
+        mc:Ignorable="d"
+        Title="Robot Competition" Height="401" Width="565">
+
+    <DockPanel>
+        <UniformGrid DockPanel.Dock ="Top" Columns="1" HorizontalAlignment="Stretch" Margin="10">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Style="{StaticResource Header}">Competitions</TextBlock>
+            </StackPanel>
+        </UniformGrid>
+
+        <UniformGrid DockPanel.Dock="Right" Rows="4">
+            <Button Command="{Binding ShowRacesCommand}" Style="{StaticResource ActionButton}">Races</Button>
+        </UniformGrid>
+
+        <DataGrid Margin="10" Grid.Row="2" ItemsSource="{Binding Competitions}" 
+                  SelectedItem="{Binding SelectedCompetition}" 
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=Name}" Header="Name"
+                                    ElementStyle="{StaticResource StringColumn}">
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=RaceCount}" Header="Races"
+                                    ElementStyle="{StaticResource NumberColumn}">
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=FirstRace, StringFormat={}{0:yyyy.MM.dd HH.mm}}" Header="Start"
+                                    ElementStyle="{StaticResource DateColumn}">
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=LastRace, StringFormat={}{0:yyyy.MM.dd HH.mm}}" Header="End"
+                                    ElementStyle="{StaticResource DateColumn}">
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

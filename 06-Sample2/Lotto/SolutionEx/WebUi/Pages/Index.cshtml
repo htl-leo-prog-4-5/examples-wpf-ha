@@ -1,0 +1,18 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebUi.Pages.IndexModel
+@{
+    ViewData["Title"] = "Lotto List";
+}
+
+<div class="row">
+    <h1 class="display-4">Lotto - Dashboard</h1>
+</div>
+
+<div class="row">
+    <br/>
+    <a asp-page="./CreateTicket/Index">Create Ticket</a>
+    <br/>
+    <a asp-page="./TicketResult/Index">Ticket result</a>
+    <br/>
+</div>

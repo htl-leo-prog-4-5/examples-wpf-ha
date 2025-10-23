@@ -1,0 +1,19 @@
+FC Blau-Weiß Linz / Kleinmünchen;LASK
+0;0;Anpfiff;Das Spiel beginnt.
+0;17;Tor;0:1! Katharina Mayr trifft für LASK.
+0;14;Gelbe Karte;Gelbe Karte für Samantha Stiglmair (unsportliches Verhalten).
+0;36;Gelbe Karte;Gelbe Karte für Florentina Sensenberger (unsportliches Verhalten).
+0;39;Wechsel;FC Blau-Weiß Linz / Kleinmünchen wechselt: Karla Jedvaj verlässt das Spielfeld, für sie kommt Ella Herbst.
+0;43;Tor;Tor für FC Blau-Weiß Linz / Kleinmünchen durch Theresa D'Angelo. Neuer Spielstand: 1:1!
+0;47;Halbzeit;Die erste Halbzeit endet 1:1
+1;0;Wechsel;Erster Wechsel bei LASK. Jasmin Reiterer kommt für Linda Schöser ins Spiel.
+1;5;Tor;Tor für FC Blau-Weiß Linz / Kleinmünchen durch Valerie Sprung. Neuer Spielstand: 2:1!
+1;15;Wechsel;LASK wechselt: Elisa Vorhauer verlässt das Spielfeld, für sie kommt Madlene Kerschbaummayr.
+1;15;Wechsel;LASK wechselt: Edina Avdic verlässt das Spielfeld, für sie kommt Jasmin Reichmann.
+1;23;Wechsel;4. Wechsel bei LASK. Mavie Schweitzer wird aus dem Spiel genommen. Für sie kommt Cynthia Chidiebere Adamu aufs Feld.
+1;29;Gelbe Karte;Gelbe Karte für Jana Kofler (unsportliches Verhalten).
+1;31;Wechsel;FC Blau-Weiß Linz / Kleinmünchen wechselt: Nadine Wiener verlässt das Spielfeld, für sie kommt Lea Krinzinger.
+1;33;Gelbe Karte;Gelbe Karte für Sandra Mayrhofer (FC Blau-Weiß Linz / Kleinmünchen, Kritik).
+1;36;Gelbe Karte;Wegen Foulspiels sieht Almedina Sisic die Gelbe Karte.
+1;43;Wechsel;Spielertausch bei FC Blau-Weiß Linz / Kleinmünchen. Aus dem Spiel: Sandra Mayrhofer, neu im Spiel: Jana Rauch.
+1;48;Ende;Das Spiel endet 2:1 für FC Blau-Weiß Linz / Kleinmünchen

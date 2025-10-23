@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core.Entities.MyDrawing">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAEAAAwBAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\MyDrawing.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Shapes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Core.Entities.Shape">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAwAAAAAgAAAAAAAAAgAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Entities\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Entities.Line" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAwAAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Entities.Polyline" Collapsed="true">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAwAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Polyline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Entities.Rectangle" Collapsed="true">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAwAAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

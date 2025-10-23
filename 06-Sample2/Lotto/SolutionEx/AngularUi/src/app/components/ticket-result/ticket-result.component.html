@@ -1,0 +1,25 @@
+<div class="container mt-3">
+    <h2>Ticket result summary</h2>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="ticketNo">TicketNo:</label>
+                <input class="form-control" id="ticketNo" [(ngModel)]="ticketNo" name="ticketNo">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <button [disabled]="ticketNo==null" class="btn btn-primary mt-2" (click)="getTicketResult()">Get Ticket
+            Result</button>
+    </div>
+
+    <div *ngIf="haveTicketResult">
+        <ul class="list-group">
+            <!--
+        <li class="list-group-item"><strong>Avg. Sunshine In Hours:</strong> {{ averageWeatherData.averageSunshineInHours | number:'1.1-2' }} h</li>
+-->
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core.Entities.Difficulty">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Difficulty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Entities.Companion">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Companion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Hikes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Core.Entities.Hike">
+    <Position X="2" Y="1.25" Width="1.5" />
+    <AssociationLine Name="Companions" Type="Core.Entities.Companion" FixedFromPoint="true">
+      <Path>
+        <Point X="3.5" Y="2.812" />
+        <Point X="5" Y="2.812" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAQAAAAIgAAAAAAABAABDAAAAgAAAAAA=</HashCode>
+      <FileName>Entities\Hike.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Difficulty" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Companions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Core.Entities.Highlight">
+    <Position X="5" Y="4" Width="1.5" />
+    <AssociationLine Name="Hike" Type="Core.Entities.Hike" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="4.813" />
+        <Point X="2.875" Y="4.813" />
+        <Point X="2.875" Y="3.637" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Highlight.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Hike" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

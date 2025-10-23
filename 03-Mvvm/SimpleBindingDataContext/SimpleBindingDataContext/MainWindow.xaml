@@ -1,0 +1,31 @@
+﻿<Window x:Class="SimpleBindingDataContext.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleBindingDataContext"
+        Title="Bindung an ein Objekt" 
+        Height="300" Width="300">
+
+    <Window.Resources>
+        <local:Person x:Key="APerson" 
+                          FirstName="Norbert" 
+                          LastName="Eder"/>
+        <local:PersonFile x:Key="APersonFile" 
+                          FileName="c:\tmp\test.csv"/>
+    </Window.Resources>
+
+    <StackPanel DataContext="{StaticResource APerson}">
+        <TextBlock Text="Personendaten" FontSize="16" FontWeight="Bold" Margin="3"/>
+        <TextBlock Text="Vorname" Margin="3"/>
+        <TextBox Margin="3" 
+                 Text="{Binding Path=FirstName}"/>
+        <TextBlock Text="Nachname" Margin="3"/>
+        <TextBox Margin="3" Text="{Binding Path=LastName}"/>
+        <Separator/>
+        <TextBlock Text="Dateiname" Margin="3"/>
+        <TextBox Margin="3" Text="{Binding Source={StaticResource APersonFile}, Path=FileName}"/>
+        <Separator/>
+        <Button Name="Show" Content="An Datei anhängen" Height="20" Click="Show_Click"></Button>
+    </StackPanel>
+</Window>

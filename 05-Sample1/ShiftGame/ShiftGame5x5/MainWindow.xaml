@@ -1,0 +1,167 @@
+﻿<Window x:Class="ShiftGame5x5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShiftGame5x5"
+        mc:Ignorable="d"
+        Title="Shift Game" Height="450" Width="525">
+    <Window.Resources>
+        <local:ShiftGame x:Key="AShiftGame" />
+
+        <Style TargetType="StackPanel" x:Key="HeaderStackPanel">
+            <Setter Property="Background" Value="#d0f0f0f0" />
+        </Style>
+        <Style TargetType="StackPanel" x:Key="FooterStackPanel">
+            <Setter Property="Background" Value="#d0f0f0f0" />
+        </Style>
+        <Style TargetType="Button" x:Key="MyButton">
+            <Setter Property="FontSize" Value="50" />
+            <Setter Property="Margin" Value="1,1,1,1"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="true">
+                    <Setter Property="Foreground" Value="Crimson"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="Button" x:Key="NewButtonStyle">
+            <Setter Property="Margin" Value="1,1,1,1"></Setter>
+        </Style>
+
+    </Window.Resources>
+
+    <StackPanel>
+        <StackPanel Style="{StaticResource HeaderStackPanel}">
+
+        </StackPanel>
+        <Grid DataContext="{StaticResource AShiftGame}">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field00}"
+                    Command="{Binding SetField00Command}" />
+            <Button Grid.Row="0" Grid.Column="1"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field01}"
+                    Command="{Binding SetField01Command}" />
+            <Button Grid.Row="0" Grid.Column="2"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field02}"
+                    Command="{Binding SetField02Command}" />
+            <Button Grid.Row="0" Grid.Column="3"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field03}"
+                    Command="{Binding SetField03Command}" />
+            <Button Grid.Row="0" Grid.Column="4"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field04}"
+                    Command="{Binding SetField04Command}" />
+
+            <Button Grid.Row="1" Grid.Column="0"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field10}"
+                    Command="{Binding SetField10Command}" />
+            <Button Grid.Row="1" Grid.Column="1"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field11}"
+                    Command="{Binding SetField11Command}" />
+            <Button Grid.Row="1" Grid.Column="2"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field12}"
+                    Command="{Binding SetField12Command}" />
+            <Button Grid.Row="1" Grid.Column="3"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field13}"
+                    Command="{Binding SetField13Command}" />
+            <Button Grid.Row="1" Grid.Column="4"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field14}"
+                    Command="{Binding SetField14Command}" />
+
+            <Button Grid.Row="2" Grid.Column="0"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field20}"
+                    Command="{Binding SetField20Command}" />
+            <Button Grid.Row="2" Grid.Column="1"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field21}"
+                    Command="{Binding SetField21Command}" />
+            <Button Grid.Row="2" Grid.Column="2"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field22}"
+                    Command="{Binding SetField22Command}" />
+            <Button Grid.Row="2" Grid.Column="3"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field23}"
+                    Command="{Binding SetField23Command}" />
+            <Button Grid.Row="2" Grid.Column="4"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field24}"
+                    Command="{Binding SetField24Command}" />
+
+            <Button Grid.Row="3" Grid.Column="0"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field30}"
+                    Command="{Binding SetField30Command}" />
+            <Button Grid.Row="3" Grid.Column="1"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field31}"
+                    Command="{Binding SetField31Command}" />
+            <Button Grid.Row="3" Grid.Column="2"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field32}"
+                    Command="{Binding SetField32Command}" />
+            <Button Grid.Row="3" Grid.Column="3"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field33}"
+                    Command="{Binding SetField33Command}" />
+            <Button Grid.Row="3" Grid.Column="4"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field34}"
+                    Command="{Binding SetField34Command}" />
+
+            <Button Grid.Row="4" Grid.Column="0"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field40}"
+                    Command="{Binding SetField40Command}" />
+            <Button Grid.Row="4" Grid.Column="1"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field41}"
+                    Command="{Binding SetField41Command}" />
+            <Button Grid.Row="4" Grid.Column="2"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field42}"
+                    Command="{Binding SetField42Command}" />
+            <Button Grid.Row="4" Grid.Column="3"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field43}"
+                    Command="{Binding SetField43Command}" />
+            <Button Grid.Row="4" Grid.Column="4"
+                    Style="{StaticResource MyButton}"
+                    Content="{Binding Field44}"
+                    Command="{Binding SetField44Command}" />
+
+        </Grid>
+        <StackPanel Style="{StaticResource FooterStackPanel}">
+            <StackPanel Orientation="Horizontal">
+                <Label>Züge:</Label>
+                <Label Content="{Binding MoveCount}" />
+            </StackPanel>
+            <Button Content="New Game" Command="{Binding NewGameCommand}" 
+                    Style="{StaticResource NewButtonStyle}" />
+        </StackPanel>
+    </StackPanel>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="LayoutSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button x:Name="_wrap" Content="WrapPanel" Margin="0,10,0,0" Click="_wrap_Click"/>
+        <Button x:Name="_canvas" Content="Canvas" Margin="0,10,0,0" Click="_canvas_Click"/>
+        <Button x:Name="_uniformgrid" Content="UniformGrid" Margin="0,10,0,0" Click="_uniformgrid_Click"/>
+        <Button x:Name="_scroll" Content="ScrollViewer" Margin="0,10,0,0" Click="_scroll_Click"/>
+    </StackPanel>
+</Window>

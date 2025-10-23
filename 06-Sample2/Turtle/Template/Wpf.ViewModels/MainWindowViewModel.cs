@@ -1,0 +1,33 @@
+﻿namespace Wpf.ViewModels;
+
+using Base.WpfMvvm;
+
+using Core.Contracts;
+
+public class MainWindowViewModel : ValidatableBaseViewModel
+{
+    #region crt
+
+    public           IWindowNavigator? Controller { get; set; }
+    private readonly IUnitOfWork       _uow;
+
+    public MainWindowViewModel(IUnitOfWork uow)
+    {
+        _uow = uow;
+    }
+
+    #endregion
+
+    #region Properties/Commands
+
+    #endregion
+
+    #region Operations
+
+    public override Task InitializeDataAsync()
+    {
+        throw new NotImplementedException();
+    }
+
+    #endregion
+}

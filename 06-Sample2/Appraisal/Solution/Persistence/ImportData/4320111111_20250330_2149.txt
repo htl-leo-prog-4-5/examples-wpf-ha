@@ -1,0 +1,17 @@
+Key;Value
+Patient;4320111111
+PatientName;Musterfrau
+Date;2025.03.30 21:49
+DataStreams;StreamI,Stream2
+StreamIName;Left
+StreamIPeriod;0.1
+StreamIData00001;0,0,0,0.1,0.2,0.25
+StreamIData00002;0.3,0.4,0.3,0.1,0
+Stream2Name;Right
+Stream2Period;0.2
+Stream2Data00001;0
+Stream2Data00002;0.2
+Stream2Data00003;0.4
+Stream2Data00004;0.3
+Stream2Data00005;0.1
+Stream2Data00006;0

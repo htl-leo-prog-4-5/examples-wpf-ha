@@ -1,0 +1,49 @@
+﻿<Window x:Class="Wpf.Views.TripWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf"
+        xmlns:viewModels="clr-namespace:Wpf.ViewModels;assembly=Wpf.ViewModels"
+        d:DataContext="{d:DesignInstance Type=viewModels:TripViewModel}"
+        mc:Ignorable="d"
+        Title="Travel Agency" Height="460" Width="620">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <UniformGrid Rows="3" Columns="2">
+            <Label>Departure:</Label>
+            <Label Content="{Binding Trip.DepartureDateTime}"> </Label>
+
+            <Label>Arrival:</Label>
+            <Label Content="{Binding Trip.ArrivalDateTime}"></Label>
+
+            <Label>Route:</Label>
+            <Label Content="{Binding Trip.Route.Name}"></Label>
+
+        </UniformGrid>
+
+        <ListView Grid.Row="1" Margin="10" ItemsSource="{Binding Trip.Route.Steps}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Step"
+                                    DisplayMemberBinding="{Binding No }" />
+                    <GridViewColumn Header="Description"
+                                    DisplayMemberBinding="{Binding Description }" />
+                    <GridViewColumn Header="Type"
+                                    DisplayMemberBinding="{Binding TypeInfo}" />
+                    <GridViewColumn Header="TypeInfo"
+                                    DisplayMemberBinding="{Binding TypeInfoName}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <UniformGrid Grid.Row="2" Columns="4">
+            <Button Content="Close" Margin="10" Command="{Binding CloseCommand}" />
+        </UniformGrid>
+    </Grid>
+</Window>

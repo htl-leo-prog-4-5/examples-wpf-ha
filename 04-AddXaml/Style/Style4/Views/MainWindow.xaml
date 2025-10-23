@@ -1,0 +1,52 @@
+﻿<Window x:Class="Style4.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewModels="clr-namespace:Style4.ViewModels"
+        Title="MainWindow" Height="350" Width="525">
+
+    <Window.DataContext>
+        <viewModels:MainWindowViewModel />
+    </Window.DataContext>
+
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Foreground" Value="Red" />
+        </Style>
+
+        <Style x:Key="GreenButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="Green" />
+        </Style>
+
+        <Style x:Key="MyDataStyle" TargetType="{x:Type Border}">
+            <Setter Property="Background" Value="Green" />
+        </Style>
+
+        <Style TargetType="TextBlock" x:Key="LetterTextBlockStyle">
+            <Setter Property="FontSize" Value="28"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding MyName}" Value="Welt">
+                    <Setter Property="Foreground" Value="Red"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+
+    <StackPanel>
+        <ItemsControl ItemsSource="{Binding Path=SomeData}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border Style="{StaticResource MyDataStyle}">
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding MyName}" Style="{StaticResource LetterTextBlockStyle}"></TextBlock>
+                                <TextBlock Text="{Binding MyInt}" Style="{StaticResource LetterTextBlockStyle}"></TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </StackPanel>
+</Window>

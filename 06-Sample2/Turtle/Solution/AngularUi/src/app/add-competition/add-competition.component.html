@@ -1,0 +1,73 @@
+<div class="container">
+
+  <div class="row">
+
+    <div class="col mb-4">
+
+      <h1>Add a new competition</h1>
+
+      <form>
+        <div class="form-group">
+          <div class="form">
+
+            <label for="competitionName" class="form-label">Competition Name</label>
+            <input class="form-control" id="competitionName" name="competitionName" required
+              [(ngModel)]="competitionNameVal" #competitionName="ngModel" placeholder="Enter name">
+            @if(competitionName?.invalid && (competitionName?.dirty || competitionName?.touched)) {
+            <div class="alert alert-danger">
+              @if (competitionName?.errors?.['required']) {
+              <div>
+                Name is required.
+              </div>
+              }
+              @if (competitionName?.errors?.['nameInvalid']) {
+              <div>
+                This is not a valid name.
+              </div>
+              }
+
+            </div>
+            }
+          </div>
+
+          <thead>
+            <tr>
+              <th scope="col">Scripts in competition</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (script of selectedScripts; track $index; let idx = $index) {
+            <tr>
+              <td>{{script.name}}</td>
+              <td><button class="btn btn-info btn-sm" (click)="onRemoveFromCompetition(script)">Remove</button></td>
+            </tr>
+          }
+          </tbody>
+
+          <thead>
+            <tr>
+              <th scope="col">Available scripts</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            @for (script of scripts; track $index; let idx = $index) {
+            <tr>
+              <td>{{script.name}}</td>
+              <td><button class="btn btn-info btn-sm" (click)="onAddToCompetition(script)">Add</button></td>
+            </tr>
+          }
+          </tbody>
+      
+          <div>
+            <button [disabled]="competitionName?.invalid " (click)="addCompetition()" type="submit"
+              class="btn btn-primary">Submit</button>
+
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

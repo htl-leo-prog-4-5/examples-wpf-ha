@@ -1,0 +1,12 @@
+Rectangle;ColorIdx=1;StartPoint=5531,6903;EndPoint=8743,3392
+Line;ColorIdx=1;StartPoint=8713,6873;EndPoint=12490,8879
+Line;ColorIdx=1;StartPoint=8743,3363;EndPoint=12430,5516
+Line;ColorIdx=1;StartPoint=12490,8820;EndPoint=12430,5634
+Line;ColorIdx=1;StartPoint=4966,6401;EndPoint=7107,8348
+Line;ColorIdx=1;StartPoint=7107,8407;EndPoint=8921,6667
+Line;ColorIdx=1;StartPoint=7107,8378;EndPoint=11062,10059
+Line;ColorIdx=1;StartPoint=11033,10089;EndPoint=12579,8820
+Rectangle;ColorIdx=3;StartPoint=6037,6136;EndPoint=6750,5575
+Rectangle;ColorIdx=3;StartPoint=7464,6136;EndPoint=8118,5575
+Rectangle;ColorIdx=3;StartPoint=6126,4661;EndPoint=6750,4071
+Rectangle;ColorIdx=11;StartPoint=7494,4690;EndPoint=8059,3481

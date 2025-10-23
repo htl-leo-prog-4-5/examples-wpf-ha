@@ -1,0 +1,73 @@
+﻿@page
+@model WebUi.Pages.CruiseShips.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>CruiseShip</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CruiseShip.Name" class="control-label"></label>
+                <input asp-for="CruiseShip.Name" class="form-control" />
+                <span asp-validation-for="CruiseShip.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CruiseShip.YearOfConstruction" class="control-label"></label>
+                <input asp-for="CruiseShip.YearOfConstruction" class="form-control" />
+                <span asp-validation-for="CruiseShip.YearOfConstruction" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CruiseShip.Tonnage" class="control-label"></label>
+                <input asp-for="CruiseShip.Tonnage" class="form-control" />
+                <span asp-validation-for="CruiseShip.Tonnage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CruiseShip.Length" class="control-label"></label>
+                <input asp-for="CruiseShip.Length" class="form-control" />
+                <span asp-validation-for="CruiseShip.Length" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CruiseShip.Cabins" class="control-label"></label>
+                <input asp-for="CruiseShip.Cabins" class="form-control" />
+                <span asp-validation-for="CruiseShip.Cabins" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CruiseShip.Passengers" class="control-label"></label>
+                <input asp-for="CruiseShip.Passengers" class="form-control" />
+                <span asp-validation-for="CruiseShip.Passengers" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CruiseShip.Crew" class="control-label"></label>
+                <input asp-for="CruiseShip.Crew" class="form-control" />
+                <span asp-validation-for="CruiseShip.Crew" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CruiseShip.Remark" class="control-label"></label>
+                <input asp-for="CruiseShip.Remark" class="form-control" />
+                <span asp-validation-for="CruiseShip.Remark" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CruiseShip.ShippingCompanyId" class="control-label"></label>
+                <select asp-for="CruiseShip.ShippingCompanyId" class ="form-control" asp-items="ViewBag.ShippingCompanyId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

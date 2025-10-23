@@ -1,0 +1,55 @@
+<div class="container mt-3">
+
+  <div>
+    <hr />
+    <dl class="row">
+      <dt class="col-sm-2">
+        Name
+      </dt>
+      <dd class="col-sm-10">
+        {{ company!.name }}
+      </dd>
+      <dt class="col-sm-2">
+        City
+      </dt>
+      <dd class="col-sm-10">
+        {{ company!.city }}
+      </dd>
+    </dl>
+    <hr />
+    <td><button *ngIf="company!.id !== null" class="btn btn-info btn-sm" (click)="editCompany(company!)">Edit</button></td>
+  </div>
+
+  <h2>Ships</h2>
+  <table class="table table-sm">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>year</th>
+        <th>tonnage</th>
+        <th>length</th>
+        <th>cabins</th>
+        <th>passengers</th>
+        <th>crew</th>
+        <th>remark</th>
+        <th>oldNames</th>
+    </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let ship of company!.cruiseShips">
+        <tr>
+          <td>{{ship.name}}</td>
+
+          <td>{{ship.yearOfConstruction}}</td>
+          <td>{{ship.tonnage}}</td>
+          <td>{{ship.length}}</td>
+          <td>{{ship.cabins}}</td>
+          <td>{{ship.passengers}}</td>
+          <td>{{ship.crew}}</td>
+          <td>{{ship.remark}}</td>
+          <td>{{ship.oldNames}}</td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>

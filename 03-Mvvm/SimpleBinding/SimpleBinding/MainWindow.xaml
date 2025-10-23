@@ -1,0 +1,33 @@
+﻿<Window x:Class="SimpleBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleBinding"
+        Title="Bindung an ein Objekt" 
+        Height="300" Width="300">
+
+    <Window.Resources>
+        <local:Person x:Key="APerson" 
+                      FirstName="Norbert" 
+                      LastName="Eder"/>
+    </Window.Resources>
+
+    <StackPanel>
+        <TextBlock Text="Personendaten" FontSize="16" 
+                   FontWeight="Bold" Margin="3"/>
+        <TextBlock Text="Vorname" Margin="3"/>
+        <TextBox x:Name="FirstNameTextBox" 
+                 Margin="3" 
+                 Text="{Binding 
+                        Source={StaticResource APerson}, Path=FirstName}"/>
+        <TextBlock Text="Nachname" Margin="3"/>
+        <TextBox x:Name="LastNameTextBox" 
+                 Margin="3" 
+                 Text="{Binding 
+                        Source={StaticResource APerson}, Path=LastName}"/>
+        <Separator/>
+
+        <Button Name="Show" Content="Zeige Werte" Height="20" Click="Show_Click"></Button>
+    </StackPanel>
+</Window>

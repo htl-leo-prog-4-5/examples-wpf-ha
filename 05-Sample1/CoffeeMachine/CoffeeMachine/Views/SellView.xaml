@@ -1,0 +1,71 @@
+﻿<Window x:Class="CoffeeMachine.Views.SellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeMachine"
+        xmlns:viewModels="clr-namespace:CoffeeMachine.ViewModels"        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="377.239" Width="538.071">
+
+    <Window.DataContext>
+        <viewModels:SellViewModel/>
+    </Window.DataContext>
+
+    <StackPanel >
+        <Label Content="Sell coffee machine" FontSize="30"></Label>
+        <Separator Margin="0,0,0,10"/>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Selling price" Width="100"></Label>
+            <TextBox Text="{Binding SellPrice}" Width="40"></TextBox>
+        </StackPanel>
+        <Label Content="Entered coins" Width="100"/>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Coin Value" Width="100"/>
+            <TextBox Text="{Binding ModelIn.Coin1Value}" Width="40" IsReadOnly="True" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelIn.Coin2Value}" Width="40" IsReadOnly="True" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelIn.Coin3Value}" Width="40" IsReadOnly="True" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelIn.Coin4Value}" Width="40" IsReadOnly="True" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelIn.Coin5Value}" Width="40" IsReadOnly="True" Margin="0,0,5,0"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Coin Amount" Width="100"/>
+            <TextBox Text="{Binding ModelIn.Coin1Amount, UpdateSourceTrigger=PropertyChanged}" Width="40" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelIn.Coin2Amount, UpdateSourceTrigger=PropertyChanged}" Width="40" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelIn.Coin3Amount, UpdateSourceTrigger=PropertyChanged}" Width="40" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelIn.Coin4Amount, UpdateSourceTrigger=PropertyChanged}" Width="40" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelIn.Coin5Amount, UpdateSourceTrigger=PropertyChanged}" Width="40" Margin="0,0,5,0"/>
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Total given" Width="100"/>
+            <TextBox Text="{Binding ModelIn.CoinTotalAmount, Mode=OneWay}" IsReadOnly="True"  Width="40" Margin="0,0,5,0"/>
+        </StackPanel>
+
+
+        <StackPanel Orientation="Horizontal"/>
+        <Separator Margin="0,10,0,10"/>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Sell"  Command="{Binding SellCommand}" Width="100" Margin="0,0,10,0"/>
+            <Button Content="Close" Command="{Binding CloseCommand}" Width="100" Margin="50,0,0,0"/>
+        </StackPanel>
+        <Separator Margin="0,10,0,10"/>
+        <Label Content="Returns" Width="100"/>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Coin Value" Width="100"/>
+            <TextBox Text="{Binding ModelOut.Coin1Value}" Width="40" IsReadOnly="True" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelOut.Coin2Value}" Width="40" IsReadOnly="True" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelOut.Coin3Value}" Width="40" IsReadOnly="True" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelOut.Coin4Value}" Width="40" IsReadOnly="True" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelOut.Coin5Value}" Width="40" IsReadOnly="True" Margin="0,0,5,0"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Coin Amount" Width="100"/>
+            <TextBox Text="{Binding ModelOut.Coin1Amount}" Width="40" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelOut.Coin2Amount}" Width="40" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelOut.Coin3Amount}" Width="40" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelOut.Coin4Amount}" Width="40" Margin="0,0,5,0"/>
+            <TextBox Text="{Binding ModelOut.Coin5Amount}" Width="40" Margin="0,0,5,0"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

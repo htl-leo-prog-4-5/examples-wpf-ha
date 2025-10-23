@@ -1,0 +1,33 @@
+﻿<Window x:Class="Enter6Aus45.Views.AddTipView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Enter6Aus45.Views"
+        xmlns:viewModels="clr-namespace:Enter6Aus45.ViewModels"        
+
+        mc:Ignorable="d"
+        Title="AddTipView" Height="450" Width="800">
+    <Window.DataContext>
+        <viewModels:AddTipViewModel />
+    </Window.DataContext>
+
+    <StackPanel>
+        <Separator Margin="0,10,0,10"/>
+    <StackPanel Orientation="Horizontal">
+        <Button Content="Tip" Command="{Binding GetTipsCommand}"  Width="100" Margin="0,0,10,0"/>
+        <Button Content="Write tip to file and close"  Command="{Binding WriteToFileCommand}" Margin="0,0,10,0"/>
+        <Button Content="Close" Command="{Binding CloseCommand}" Width="100" Margin="180,0,0,0"/>
+    </StackPanel>
+    <Separator Margin="0,10,0,10"/>
+    <StackPanel Orientation="Horizontal">
+        <Label Content="Tip" Width="100"/>
+        <TextBox Text="{Binding Model.Tip1}" Width="20" IsReadOnly="True" Margin="0,0,5,0"/>
+        <TextBox Text="{Binding Model.Tip2}" Width="20" IsReadOnly="True" Margin="0,0,5,0"/>
+        <TextBox Text="{Binding Model.Tip3}" Width="20" IsReadOnly="True" Margin="0,0,5,0"/>
+        <TextBox Text="{Binding Model.Tip4}" Width="20" IsReadOnly="True" Margin="0,0,5,0"/>
+        <TextBox Text="{Binding Model.Tip5}" Width="20" IsReadOnly="True" Margin="0,0,5,0"/>
+        <TextBox Text="{Binding Model.Tip6}" Width="20" IsReadOnly="True" Margin="0,0,5,0"/>
+    </StackPanel>
+    </StackPanel>
+</Window>

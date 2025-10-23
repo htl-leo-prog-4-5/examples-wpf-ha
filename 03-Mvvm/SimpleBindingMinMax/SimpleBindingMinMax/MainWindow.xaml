@@ -1,0 +1,29 @@
+﻿<Window x:Class="SimpleBindingMinMax.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleBindingMinMax"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+
+    <StackPanel  >
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Zahl 1" Width="100"/>
+            <TextBox Width="50" Text="{Binding Path=Zahl1, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Zahl 2" Width="100"/>
+            <TextBox Width="50" Text="{Binding Path=Zahl2, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="1,2,0,0">
+            <Button Content="Init" Click="Button_Click"  />
+            <Button Content="InitCommand" Command="{Binding InitValues}"  />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="1,2,0,0">
+            <Label Content="Max" Width="100"/>
+            <TextBox  Width="50"  Text="{Binding Path=MinValue, Mode=OneWay}" />
+        </StackPanel>
+    </StackPanel>
+</Window>

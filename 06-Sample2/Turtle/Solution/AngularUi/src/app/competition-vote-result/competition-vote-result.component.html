@@ -1,0 +1,30 @@
+<div class="container mt-3">
+
+    <h1>Competition Vote Result</h1>
+
+    <p>{{competitionVoteResult?.name}}</p>
+
+    <thead>
+        <tr>
+            <th scope="col">Vote for scripts</th>
+            <th class="colheader" scope="col">*</th>
+            <th class="colheader" scope="col">**</th>
+            <th class="colheader" scope="col">***</th>
+            <th class="colheader" scope="col">****</th>
+            <th class="colheader" scope="col">*****</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @for (vote of competitionVoteResult!.votes; track $index; let idx = $index) {
+        <tr>
+            <td>{{vote.name}}</td>
+            <td class="colcount">{{vote.count1}}</td>
+            <td class="colcount">{{vote.count2}}</td>
+            <td class="colcount">{{vote.count3}}</td>
+            <td class="colcount">{{vote.count4}}</td>
+            <td class="colcount">{{vote.count5}}</td>
+        </tr>
+        }
+    </tbody>
+</div>

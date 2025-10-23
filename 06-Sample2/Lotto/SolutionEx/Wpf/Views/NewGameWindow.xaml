@@ -1,0 +1,46 @@
+﻿<Window x:Class="Wpf.Views.NewGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf"
+        xmlns:viewModels="clr-namespace:Wpf.ViewModels;assembly=Wpf.ViewModels"
+        d:DataContext="{d:DesignInstance Type=viewModels:NewGameViewModel}"
+        mc:Ignorable="d"
+        Title="Lotto" Height="360" Width="620">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Margin="10" Grid.Row="0" Orientation="Horizontal">
+            <Label Content="New Lotto Game" />
+        </StackPanel>
+
+        <StackPanel Margin="10" Grid.Row="1" Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Label Width="100" Content="From date:" />
+                <DatePicker Width="150" Margin="5" SelectedDate="{Binding DateFrom , Mode=TwoWay}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="100" Content="To date:" />
+                <DatePicker Width="150" Margin="5" SelectedDate="{Binding DateTo, Mode=TwoWay}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="100" Content="Draw date:" />
+                <DatePicker Width="150" Margin="5" SelectedDate="{Binding DrawDate, Mode=TwoWay}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="100" Content="Max:" />
+                <TextBox Width="150" Margin="5" Text="{Binding MaxNo, Mode=TwoWay}" />
+            </StackPanel>
+        </StackPanel>
+
+        <UniformGrid Grid.Row="2" Columns="4">
+            <Button Content="New" Margin="10" Command="{Binding NewCommand}" />
+            <Button Content="Close" Margin="10" Command="{Binding CloseCommand}" />
+        </UniformGrid>
+    </Grid>
+</Window>

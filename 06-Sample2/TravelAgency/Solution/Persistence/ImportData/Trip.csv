@@ -1,0 +1,9 @@
+﻿RouteName;DepartureDateTime;ArrivalDateTime
+Austria 1;2025.01.01;2025.01.02
+Austria 1;2025.02.01;2025.02.02
+Austria 1;2030.01.01;2025.01.02
+Austria 1;2030.02.01;2025.02.02
+Kreuzfahrt Mittelmeer;2025.01.01;2025.01.10
+Kreuzfahrt Mittelmeer;2025.03.01;2025.03.10
+Kreuzfahrt Mittelmeer;2030.01.01;2025.01.10
+Kreuzfahrt Mittelmeer;2030.03.01;2025.03.10

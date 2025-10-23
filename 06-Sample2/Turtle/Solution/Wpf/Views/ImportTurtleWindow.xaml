@@ -1,0 +1,39 @@
+﻿<Window x:Class="Wpf.Views.ImportTurtleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf"
+        xmlns:viewModels="clr-namespace:Wpf.ViewModels;assembly=Wpf.ViewModels"
+        d:DataContext="{d:DesignInstance Type=viewModels:ImportTurtleViewModel}"
+        mc:Ignorable="d"
+        Title="Import Turtle Script" Height="200" Width="500">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="10,10,10,10">
+            <UniformGrid Columns="2">
+                <Label Content="Name:" />
+                <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
+
+                <Label Content="Description:" />
+                <TextBox Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}" />
+
+                <Label Content="Origin:" />
+                <TextBox Text="{Binding Origin, UpdateSourceTrigger=PropertyChanged}" />
+
+                <Label Content="Filename:" />
+                <TextBox Text="{Binding FileName, UpdateSourceTrigger=PropertyChanged}" />
+            </UniformGrid>
+        </StackPanel>
+
+        <UniformGrid Grid.Row="1" Columns="4">
+            <Button Content="Import" Margin="5" Command="{Binding ImportCommand}" />
+            <Button Content="Close" Margin="5" Command="{Binding CloseCommand}" />
+        </UniformGrid>
+    </Grid>
+</Window>

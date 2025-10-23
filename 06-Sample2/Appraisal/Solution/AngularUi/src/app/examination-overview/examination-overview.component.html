@@ -1,0 +1,43 @@
+<div class="container mt-3">
+
+  <h1>Examination Overview</h1>
+
+  <div class="form-check">
+    <input type="checkbox" id="showAllFilter" [(ngModel)]="showAllFilter" class="form-check-input"
+      (change)="reloadExaminations()">
+    <label for="showAllFilter" class="form-check-label">Show all examinations</label>
+
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Examination Date</th>
+        <th scope="col">SVNumber</th>
+        <th scope="col">First name</th>
+        <th scope="col">Last name</th>
+        <th scope="col">Finding date</th>
+        <th scope="col"></th>
+
+      </tr>
+    </thead>
+    <tbody>
+      @for (examination of examinations; track $index; let idx = $index) {
+      <tr>
+        <td>{{examination.examinationDate| date:'medium'}}</td>
+        <td>{{examination.svNumber}}</td>
+        <td>{{examination.firstName}}</td>
+        <td>{{examination.lastName}}</td>
+        <td>{{examination.medicalFindingsDate| date:'medium'}}</td>
+
+        @if (examination.medicalFindingsDate == null) {
+        <button class="btn btn-info btn-sm" (click)="finding(examination)">Add findings</button>
+        }
+        @else {
+        <button class="btn btn-info btn-sm" (click)="finding(examination)">Update findings</button>
+        }
+      </tr>
+      }
+    </tbody>
+  </table>
+</div>

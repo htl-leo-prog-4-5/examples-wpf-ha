@@ -1,0 +1,59 @@
+﻿<Window x:Class="CurrencyExchange.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CurrencyExchange"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="250">
+    <Window.Resources>
+        <local:Exchange x:Key="AExchange" 
+                        Value="123.5"
+                        Rate="1.75"
+                        />
+    </Window.Resources>
+
+    <StackPanel DataContext="{StaticResource AExchange}">
+        <Label Content="Währungsumrechnung" FontSize="20" />
+        <Separator />
+        <Separator />
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Wert" Width="100"/>
+            <TextBox Text="{Binding Value, UpdateSourceTrigger=PropertyChanged}" MinWidth="75" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Gebühr(%)" Width="100"/>
+            <TextBox Text="{Binding Rate, UpdateSourceTrigger=PropertyChanged}" MinWidth="75" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Währung" Width="100"/>
+            <ComboBox SelectedIndex="{Binding ExchangeType, UpdateSourceTrigger=PropertyChanged}"  >
+                <ComboBoxItem>Euro in Dollar</ComboBoxItem>
+                <ComboBoxItem>Dollar in Euro</ComboBoxItem>
+                <ComboBoxItem>Euro in Yen</ComboBoxItem>
+                <ComboBoxItem>Yen in Euro</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+        <Separator />
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Kurs" Width="100"/>
+            <TextBox Text="{Binding ExchangeRate, Mode=OneWay}" IsReadOnly="True" MinWidth="75"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Gebühr" Width="100"/>
+            <TextBox Text="{Binding Charge, Mode=OneWay}" IsReadOnly="True" MinWidth="75"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="zu zahlen" Width="100"/>
+            <TextBox Text="{Binding TotalToPay, Mode=OneWay}" IsReadOnly="True" MinWidth="75"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="{Binding CurrencyName1}" Width="100"/>
+            <TextBox Text="{Binding ExchangeValue1, Mode=OneWay}" IsReadOnly="True" MinWidth="75"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="{Binding CurrencyName2}" Width="100"/>
+            <TextBox Text="{Binding ExchangeValue2, Mode=OneWay}" IsReadOnly="True" MinWidth="75" />
+        </StackPanel>
+    </StackPanel>
+</Window>

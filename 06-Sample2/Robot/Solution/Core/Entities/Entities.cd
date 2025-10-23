@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core.Entities.Competition">
+    <Position X="3.5" Y="1" Width="1.5" />
+    <AssociationLine Name="Races" Type="Core.Entities.Race" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.312" Y="2.233" />
+        <Point X="4.312" Y="2.905" />
+        <Point X="5.5" Y="2.905" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Competition.cs</FileName>
+      <NewMemberFileName>Entities\Driver.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Races" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Core.Entities.Race">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAQAABAAAAAAIACAAACAgEAAAAEAAAAAAAA=</HashCode>
+      <FileName>Entities\Race.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Moves" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Core.Entities.Move">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAACAAAAACAAAAABACAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Entities\Move.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Entities.Driver">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <AssociationLine Name="Races" Type="Core.Entities.Race" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="4.75" />
+        <Point X="4.25" Y="4.211" />
+        <Point X="5.5" Y="4.211" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Driver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Races" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Core.Entities.Car">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Car.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Races" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

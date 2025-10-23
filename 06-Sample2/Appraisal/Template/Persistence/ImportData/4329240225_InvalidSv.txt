@@ -1,0 +1,8 @@
+Key;Value
+Patient;4329240225
+PatientName;Gauner SvInvalid
+Date;2025.04.01 00:00
+DataStreams;LeadI
+LeadIName;Left
+LeadIPeriod;0.1
+LeadIData;0,0,0,0.1,0.3,0.6,0.3,0.1,0

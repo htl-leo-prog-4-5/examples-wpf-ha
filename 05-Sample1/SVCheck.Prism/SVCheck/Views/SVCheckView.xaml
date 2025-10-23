@@ -1,0 +1,40 @@
+﻿<Window x:Class="SVCheck.Views.SVCheckView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SVCheck"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+        xmlns:vm="clr-namespace:SVCheck.ViewModels"        
+
+        >
+    <Window.DataContext>
+        <vm:SVCheckViewModel />
+    </Window.DataContext>
+
+    <StackPanel>
+        <Label Content="SV Nummer" FontSize="30" />
+        <Separator/>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Nummer" Width="50"/>
+            <TextBox Width="100" Text="{Binding SVNumber, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Jahr" Width="50"/>
+            <TextBox Width="100" Text="{Binding SVYear, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Monat" Width="50"/>
+            <TextBox Width="100" Text="{Binding SVMonth, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Tag" Width="50"/>
+            <TextBox Width="100" Text="{Binding SVDay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        </StackPanel>
+        <Separator/>
+        <Button Content="Prüfen" Command="{Binding CheckCommand}"></Button>
+        <Label Content="Ergebnis:"/>
+        <TextBlock Text="{Binding CheckResult}"></TextBlock>
+    </StackPanel>
+</Window>

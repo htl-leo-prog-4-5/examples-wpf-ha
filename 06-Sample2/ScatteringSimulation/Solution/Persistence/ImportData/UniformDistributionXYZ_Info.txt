@@ -1,0 +1,5 @@
+Key;Value
+Description;Demo data for uniform distribution
+Origin;DEMO
+DataFile;UniformDistributionXYZ_Data.txt
+CreationDate;2025.02.07

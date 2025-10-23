@@ -1,0 +1,29 @@
+﻿<Window x:Class="LayoutSample.WrapWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutSample"
+        mc:Ignorable="d"
+        Title="WrapWindow" Height="300" Width="400">
+    <WrapPanel Orientation="Vertical" Height="100" ItemWidth="150">
+        <WrapPanel>
+            <Button>Button1</Button>
+            <Button>Button2</Button>
+            <Button>Button3</Button>
+            <Button>Button4</Button>
+        </WrapPanel>
+        <Button>Button5</Button>
+        <Button>Button6</Button>
+        <Button>Button7</Button>
+        <WrapPanel>
+            <Button>Button8</Button>
+            <Button>Button9</Button>
+            <Button>Button10</Button>
+            <Button>Button11</Button>
+        </WrapPanel>
+        <Button>Button12</Button>
+        <Button>Button13</Button>
+        <Button>Button14</Button>
+    </WrapPanel>
+</Window>

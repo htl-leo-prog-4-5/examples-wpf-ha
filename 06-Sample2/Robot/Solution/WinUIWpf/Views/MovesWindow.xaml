@@ -1,0 +1,83 @@
+﻿<Window x:Class="WinUIWpf.Views.MovesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        d:DataContext="{d:DesignInstance Type=viewModels:MovesViewModel}"
+        xmlns:local="clr-namespace:WinUIWpf"
+        xmlns:viewModels="clr-namespace:WinUIWpf.ViewModels;assembly=WinUIWpf.ViewModels"
+        mc:Ignorable="d"
+        Title="Moves" Height="528" Width="583">
+
+    <DockPanel>
+        <UniformGrid DockPanel.Dock ="Top" Columns="1" HorizontalAlignment="Stretch" Margin="10">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Style="{StaticResource Header}">Moves</TextBlock>
+            </StackPanel>
+        </UniformGrid>
+
+        <UniformGrid DockPanel.Dock ="Top" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,0">
+            <Label Content="Competition:" />
+            <TextBlock Text="{Binding Race.Competition.Name}" />
+        </UniformGrid>
+        <UniformGrid DockPanel.Dock ="Top" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,0">
+            <Label Content="Driver:" />
+            <TextBlock Text="{Binding Race.Driver.Name}" />
+        </UniformGrid>
+        <UniformGrid DockPanel.Dock ="Top" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,0">
+            <Label Content="Car:" />
+            <TextBlock Text="{Binding Race.Car.Name}" />
+        </UniformGrid>
+        <UniformGrid DockPanel.Dock ="Top" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,0">
+            <Label Content="Start:" />
+            <TextBlock Text="{Binding Race.RaceStartTime, StringFormat={}{0:yyyy.MM.dd HH.mm}}" />
+        </UniformGrid>
+        <UniformGrid DockPanel.Dock ="Top" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,0">
+            <Label Content="Time:" />
+            <TextBlock Text="{Binding Race.RaceTime, StringFormat={}{0:mm:ss}}" />
+        </UniformGrid>
+
+
+        <UniformGrid DockPanel.Dock ="Bottom" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,10">
+            <Label Content="Speed:" />
+            <TextBox Text="{Binding Speed}" IsReadOnly="{Binding IsNotEditMode}" />
+        </UniformGrid>
+
+        <UniformGrid DockPanel.Dock ="Bottom" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,0">
+            <Label Content="Duration:" />
+            <TextBox Text="{Binding Duration}" IsReadOnly="{Binding IsNotEditMode}"/>
+        </UniformGrid>
+
+        <UniformGrid DockPanel.Dock ="Bottom" Columns="2" HorizontalAlignment="Stretch" Margin="10,0,10,0">
+            <Label Content="Direction:" />
+            <TextBox Text="{Binding Direction}" IsReadOnly="{Binding IsNotEditMode}" />
+        </UniformGrid>
+
+        <UniformGrid DockPanel.Dock="Right" Rows="4">
+            <Button Command="{Binding EditMoveCommand}" Style="{StaticResource ActionButton}">Edit</Button>
+            <Button Command="{Binding UpdateMoveCommand}" Style="{StaticResource ActionButton}">Update</Button>
+        </UniformGrid>
+
+
+        <DataGrid Margin="10" Grid.Row="2" ItemsSource="{Binding Moves}" 
+                  SelectedItem="{Binding SelectedMove}" 
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=No}" Header="No"
+                                    ElementStyle="{StaticResource NumberColumn}">
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Direction}" Header="Direction"
+                                    ElementStyle="{StaticResource NumberColumn}">
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Duration}" Header="Duration"
+                                    ElementStyle="{StaticResource NumberColumn}">
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Speed}" Header="Speed"
+                                    ElementStyle="{StaticResource NumberColumn}">
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

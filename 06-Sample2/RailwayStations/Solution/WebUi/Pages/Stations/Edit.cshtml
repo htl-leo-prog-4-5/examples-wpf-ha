@@ -1,0 +1,75 @@
+﻿@page
+@model WebUi.Pages.Stations.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Station</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Station.Code" class="control-label"></label>
+                <input asp-for="Station.Code" class="form-control" />
+                <span asp-validation-for="Station.Code" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Station.Name" class="control-label"></label>
+                <input asp-for="Station.Name" class="form-control" />
+                <span asp-validation-for="Station.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Station.Type" class="control-label"></label>
+                <input asp-for="Station.Type" class="form-control" />
+                <span asp-validation-for="Station.Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Station.StateCode" class="control-label"></label>
+                <input asp-for="Station.StateCode" class="form-control" />
+                <span asp-validation-for="Station.StateCode" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Station.IsRegional" /> @Html.DisplayNameFor(model => model.Station.IsRegional)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Station.IsExpress" /> @Html.DisplayNameFor(model => model.Station.IsExpress)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Station.IsIntercity" /> @Html.DisplayNameFor(model => model.Station.IsIntercity)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Station.Remark" class="control-label"></label>
+                <input asp-for="Station.Remark" class="form-control" />
+                <span asp-validation-for="Station.Remark" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Station.CityId" class="control-label"></label>
+                <select asp-for="Station.CityId" class="form-control" asp-items="ViewBag.CityId"></select>
+                <span asp-validation-for="Station.CityId" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Station.Id" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

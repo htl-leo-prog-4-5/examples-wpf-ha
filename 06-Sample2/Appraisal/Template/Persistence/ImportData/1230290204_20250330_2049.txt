@@ -1,0 +1,16 @@
+Key;Value
+Patient;1230290204
+PatientName;Mustermann Max
+Date;2025.03.30 20:49
+DataStreams;LeadI,LeadII
+LeadIName;Left
+LeadIPeriod;0.1
+LeadIData;0,0,0,0.1,0.2,0,0.25,0.3,0.4,0.3,0.1,0
+LeadIIName;Right
+LeadIIPeriod;0.2
+LeadIIData00001;0
+LeadIIData00002;0.2
+LeadIIData00003;0.4
+LeadIIData00004;0.3
+LeadIIData00005;0.1
+LeadIIData00006;0

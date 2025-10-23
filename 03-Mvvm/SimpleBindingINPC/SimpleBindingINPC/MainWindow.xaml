@@ -1,0 +1,69 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleBindingINPC"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="SimpleBindingINPC.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="525">
+    <Window.Resources>
+        <local:PersonAddress x:Key="APerson" 
+                          Grade="Dr."
+                          FirstName="Bill" 
+                          LastName="Gates"
+                          City="Redmond" 
+                          Country="USA"
+                          ZipCode="WA 98052-6399"
+                          Street="One Microsoft Way"
+                          />
+    </Window.Resources>
+    <StackPanel DataContext="{StaticResource APerson}">
+        <Label Content="Adressformatierung" FontSize="20" />
+        <Separator />
+            <StackPanel Orientation="Horizontal" >
+                <Button Content="Adresse in USA" Name="_forUSA" Click="_forUSA_Click" />
+                <Button Content="Adresse in UK" Name="_forUK" Click="_forUK_Click" />
+                <Button Content="Adresse in AUT" Name="_forAUT" Click="_forAUT_Click" />
+            </StackPanel>
+        <Separator />
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Titel" Width="100"/>
+            <TextBox Text="{Binding Grade, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Vorname" Width="100"/>
+            <TextBox Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Nachname" Width="100"/>
+            <TextBox Text="{Binding LastName, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Strasse" Width="100"/>
+            <TextBox Text="{Binding Street, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Stadt" Width="100"/>
+            <TextBox Text="{Binding City, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="PLZ" Width="100"/>
+            <TextBox Text="{Binding ZipCode, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Land" Width="100"/>
+            <TextBox Text="{Binding Country, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <Separator />
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Formatierung" Width="100"/>
+            <ComboBox SelectedIndex="{Binding AddressType, UpdateSourceTrigger=PropertyChanged}"  >
+                <ComboBoxItem>UK</ComboBoxItem>
+                <ComboBoxItem>USA</ComboBoxItem>
+                <ComboBoxItem>AUT</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+        <TextBlock Text="{Binding Address}" Margin="10,10,0,0"/>
+    </StackPanel>
+</Window>

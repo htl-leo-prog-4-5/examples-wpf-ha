@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(TargetFrameworkForProjects)</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\Logic\Logic.csproj">    </ProjectReference>
+    <ProjectReference Include="..\Framework\Tools\Tools.csproj">    </ProjectReference>
+    <ProjectReference Include="..\Logic.Abstraction\Logic.Abstraction.csproj">    </ProjectReference>
+    <ProjectReference Include="..\Repository.Abstraction\Repository.Abstraction.csproj">    </ProjectReference>
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,80 @@
+﻿<Window x:Class="ValidationDemo1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:validationDemo1="clr-namespace:ValidationDemo1"
+        Title="MainWindow" Height="350" Width="525">
+
+    <Window.Resources>
+
+        <validationDemo1:ViewModel x:Key="AGrade"
+                                Englisch="1"
+                                Mathematik="1"
+                                Deutsch="1" />
+
+        <Style x:Key="textBoxInError" TargetType="{x:Type TextBox}">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip"
+                            Value="{Binding RelativeSource={x:Static RelativeSource.Self},
+                        Path=(Validation.Errors)/ErrorContent}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <ControlTemplate x:Key="validationTemplate">
+            <DockPanel>
+                <TextBlock Foreground="Red" FontSize="20">!</TextBlock>
+                <AdornedElementPlaceholder />
+            </DockPanel>
+        </ControlTemplate>
+
+    </Window.Resources>
+
+    <StackPanel DataContext="{StaticResource AGrade}">
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Deutsch" Width="100" />
+            <TextBox Width="50" Validation.ErrorTemplate="{StaticResource validationTemplate}"
+                     Style="{StaticResource textBoxInError}">
+                <TextBox.Text>
+                    <Binding Path="Deutsch" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
+                        <Binding.ValidationRules>
+                            <validationDemo1:GradeValidationRule Min="1" Max="5" />
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Mathematik" Width="100" />
+            <TextBox Width="50" Validation.ErrorTemplate="{StaticResource validationTemplate}"
+                     Style="{StaticResource textBoxInError}">
+                <TextBox.Text>
+                    <Binding Path="Mathematik" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validationDemo1:GradeValidationRule Min="1" Max="5" />
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Englisch" Width="100" />
+            <TextBox Width="50" Validation.ErrorTemplate="{StaticResource validationTemplate}"
+                     Style="{StaticResource textBoxInError}">
+                <TextBox.Text>
+                    <Binding Path="Englisch" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validationDemo1:GradeValidationRule Min="1" Max="5" />
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="1,2,0,0">
+
+            <Button Content="Berechnen" Command="{Binding CalculateCommand}" />
+        </StackPanel>
+        <Label Content="{Binding ResultAvg}"></Label>
+        <Label Content="{Binding ResultKlausel}"></Label>
+    </StackPanel>
+</Window>

@@ -1,0 +1,71 @@
+﻿<Window x:Class="ShiftGame4x4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShiftGame4x4"
+        mc:Ignorable="d"
+        Title="Shift Game" Height="450" Width="525">
+    <Window.Resources>
+        <local:ShiftGame x:Key="AShiftGame" />
+    </Window.Resources>
+
+    <Grid DataContext="{StaticResource AShiftGame}">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" FontSize="50" Content="{Binding Field00}"
+                Command="{Binding SetField00Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="0" Grid.Column="1" FontSize="50" Content="{Binding Field01}"
+                Command="{Binding SetField01Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="0" Grid.Column="2" FontSize="50" Content="{Binding Field02}"
+                Command="{Binding SetField02Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="0" Grid.Column="3" FontSize="50" Content="{Binding Field03}"
+                Command="{Binding SetField03Command}" Margin="1,1,1,1" />
+
+        <Button Grid.Row="1" Grid.Column="0" FontSize="50" Content="{Binding Field10}"
+                Command="{Binding SetField10Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="1" Grid.Column="1" FontSize="50" Content="{Binding Field11}"
+                Command="{Binding SetField11Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="1" Grid.Column="2" FontSize="50" Content="{Binding Field12}"
+                Command="{Binding SetField12Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="1" Grid.Column="3" FontSize="50" Content="{Binding Field13}"
+                Command="{Binding SetField13Command}" Margin="1,1,1,1" />
+
+        <Button Grid.Row="2" Grid.Column="0" FontSize="50" Content="{Binding Field20}"
+                Command="{Binding SetField20Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="2" Grid.Column="1" FontSize="50" Content="{Binding Field21}"
+                Command="{Binding SetField21Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="2" Grid.Column="2" FontSize="50" Content="{Binding Field22}"
+                Command="{Binding SetField22Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="2" Grid.Column="3" FontSize="50" Content="{Binding Field23}"
+                Command="{Binding SetField23Command}" Margin="1,1,1,1" />
+
+        <Button Grid.Row="3" Grid.Column="0" FontSize="50" Content="{Binding Field30}"
+                Command="{Binding SetField30Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="3" Grid.Column="1" FontSize="50" Content="{Binding Field31}"
+                Command="{Binding SetField31Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="3" Grid.Column="2" FontSize="50" Content="{Binding Field32}"
+                Command="{Binding SetField32Command}" Margin="1,1,1,1" />
+        <Button Grid.Row="3" Grid.Column="3" FontSize="50" Content="{Binding Field33}"
+                Command="{Binding SetField33Command}" Margin="1,1,1,1" />
+
+        <StackPanel Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3">
+            <StackPanel Orientation="Horizontal">
+                <Label>Züge:</Label>
+                <Label Content="{Binding MoveCount}" />
+            </StackPanel>
+            <Button Content="New Game" Command="{Binding NewGameCommand}" Margin="1,1,1,1" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,55 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebUi.Pages.CreateTicket.IndexModel
+@{
+    ViewData["Title"] = "Create Tip";
+}
+
+<div class="row">
+    <h1 class="display-4">Lotto - Create Tip</h1>
+</div>
+
+
+
+<div class="row">
+    <h1 class="display-2">Open Games</h1>
+</div>
+<div class="row">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    From
+                </th>
+                <th>
+                    To
+                </th>
+                <th>
+                    Draw
+                </th>
+                <th>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.CurrentGames)
+            {
+                <tr>
+                    <td>
+                        @item.DateFrom
+                    </td>
+                    <td>
+                        @item.DateTo
+                    </td>
+                    <td>
+                        @item.ExpectedDrawDate
+                    </td>
+                    <td>
+                        <a asp-page="./NewTicket" asp-route-id="@item.Id" class="btn btn-light">New ticket</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

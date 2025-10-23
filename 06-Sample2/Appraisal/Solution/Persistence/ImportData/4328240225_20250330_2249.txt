@@ -1,0 +1,7 @@
+Key;Value
+Patient;4328240225
+Date;2025.03.30 22:49
+DataStreams;Stream
+StreamName;Left
+StreamPeriod;0.1
+StreamData;0 0 0 0.1 0.2 0.25

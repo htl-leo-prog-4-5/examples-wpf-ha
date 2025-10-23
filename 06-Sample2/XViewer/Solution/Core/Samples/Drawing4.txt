@@ -1,0 +1,1 @@
+PolyLine;ColorIdx=3;StartPoint=100,100;Points=100,200,200,200,100,200,100,100

@@ -1,0 +1,54 @@
+﻿<Window x:Class="TickTackToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TickTackToe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="525">
+    <Window.Resources>
+        <local:TickTackToeGame x:Key="ATickTackToe" 
+                          />
+    </Window.Resources>
+
+    <Grid DataContext="{StaticResource ATickTackToe}">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" Content="{Binding Field00}" Command="{Binding SetField00Command}" Margin="1,1,1,1"/>
+        <Button Grid.Row="0" Grid.Column="1" Content="{Binding Field01}" Command="{Binding SetField01Command}" Margin="1,1,1,1"/>
+        <Button Grid.Row="0" Grid.Column="2" Content="{Binding Field02}" Command="{Binding SetField02Command}" Margin="1,1,1,1"/>
+
+        <Button Grid.Row="1" Grid.Column="0" Content="{Binding Field10}" Command="{Binding SetField10Command}" Margin="1,1,1,1"/>
+        <Button Grid.Row="1" Grid.Column="1" Content="{Binding Field11}" Command="{Binding SetField11Command}" Margin="1,1,1,1"/>
+        <Button Grid.Row="1" Grid.Column="2" Content="{Binding Field12}" Command="{Binding SetField12Command}" Margin="1,1,1,1"/>
+
+        <Button Grid.Row="2" Grid.Column="0" Content="{Binding Field20}" Command="{Binding SetField20Command}" Margin="1,1,1,1"/>
+        <Button Grid.Row="2" Grid.Column="1" Content="{Binding Field21}" Command="{Binding SetField21Command}" Margin="1,1,1,1"/>
+        <Button Grid.Row="2" Grid.Column="2" Content="{Binding Field22}" Command="{Binding SetField22Command}" Margin="1,1,1,1"/>
+        <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3">
+            <StackPanel Orientation="Horizontal">
+                <Label>Züge:</Label>
+                <Label Content="{Binding MoveCount}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label>Next:</Label>
+                <Label Content="{Binding NextPlayer}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label>Gewinner:</Label>
+                <Label Content="{Binding Winner}" />
+            </StackPanel>
+            <Button Content="New Game" Command="{Binding NewGameCommand}" Margin="1,1,1,1"/>
+        </StackPanel>
+    </Grid>
+</Window>

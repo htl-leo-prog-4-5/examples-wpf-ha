@@ -1,0 +1,50 @@
+﻿@page
+@model WebUi.Pages.Hotel.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Hotel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Hotel.Name" class="control-label"></label>
+                <input asp-for="Hotel.Name" class="form-control" />
+                <span asp-validation-for="Hotel.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hotel.Location" class="control-label"></label>
+                <input asp-for="Hotel.Location" class="form-control" />
+                <span asp-validation-for="Hotel.Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hotel.PricePerNight" class="control-label"></label>
+                <input asp-for="Hotel.PricePerNight" class="form-control" />
+                <span asp-validation-for="Hotel.PricePerNight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hotel.Rating" class="control-label"></label>
+                <input asp-for="Hotel.Rating" class="form-control" />
+                <span asp-validation-for="Hotel.Rating" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Hotel.Id" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,26 @@
+﻿<Window x:Class="Survey.Wpf.Views.AnswerPollWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:vm="clr-namespace:Survey.Wpf.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Survey.Wpf.Views"
+        mc:Ignorable="d"
+        Title="AnswerPollWindow" Height="300" Width="300">
+    
+    <Window.DataContext>
+        <vm:AnswerPollViewModel />
+    </Window.DataContext>
+
+    <StackPanel>
+        <Button Command="{Binding LoadCommand}" Content="Start"  Margin="0,0,5,0"/>
+        <TextBox Text="{Binding Poll.Name}"  IsReadOnly="True" Margin="0,0,5,0"/>
+        <TextBox Text="{Binding Poll.UserName}" Margin="0,0,5,0"/>
+        <RadioButton Content="{Binding Question1}" IsChecked="{Binding Question1Selected}"></RadioButton>
+        <RadioButton Content="{Binding Question2}" IsChecked="{Binding Question2Selected}"></RadioButton>
+        <RadioButton Content="{Binding Question3}" IsChecked="{Binding Question3Selected}"></RadioButton>
+        <RadioButton Content="{Binding Question4}" IsChecked="{Binding Question4Selected}"></RadioButton>
+        <RadioButton Content="{Binding Question5}" IsChecked="{Binding Question5Selected}"></RadioButton>
+        <Button Command="{Binding SaveCommand}" Content="Done"  Margin="0,0,5,0"/>
+    </StackPanel>
+</Window>

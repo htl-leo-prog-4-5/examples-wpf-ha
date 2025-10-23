@@ -1,0 +1,63 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebUi.Pages.CreateTicket.NewTicketModel
+@{
+    ViewData["Title"] = "Create Tip";
+}
+
+<div class="row">
+    <h1 class="display-4">Lotto - Create Tip</h1>
+</div>
+
+
+<div>
+    <h4>Game</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CurrentGame.DateFrom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CurrentGame.DateFrom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CurrentGame.DateTo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CurrentGame.DateTo)
+        </dd>
+    </dl>
+    <hr />
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input type="hidden" asp-for="GameId" />
+                <select asp-for="Tip.officeNo" class="form-control" asp-items="ViewBag.Offices"></select>
+                <span asp-validation-for="Tip.officeNo" class="text-danger"></span>
+                <input asp-for="Tip.no1" class="form-control" />
+                <span asp-validation-for="Tip.no1" class="text-danger"></span>
+                <input asp-for="Tip.no2" class="form-control" />
+                <span asp-validation-for="Tip.no2" class="text-danger"></span>
+                <input asp-for="Tip.no3" class="form-control" />
+                <span asp-validation-for="Tip.no3" class="text-danger"></span>
+                <input asp-for="Tip.no4" class="form-control" />
+                <span asp-validation-for="Tip.no4" class="text-danger"></span>
+                <input asp-for="Tip.no5" class="form-control" />
+                <span asp-validation-for="Tip.no5" class="text-danger"></span>
+                <input asp-for="Tip.no6" class="form-control" />
+                <span asp-validation-for="Tip.no6" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>

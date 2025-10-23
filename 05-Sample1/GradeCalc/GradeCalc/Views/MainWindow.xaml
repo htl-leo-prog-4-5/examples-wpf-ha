@@ -1,0 +1,69 @@
+﻿<controls:MetroWindow x:Class="GradeCalc.Views.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                      xmlns:local="clr-namespace:GradeCalc.Views"
+                      xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      xmlns:converter="clr-namespace:GradeCalc.Core.Converter"
+                      mc:Ignorable="d"
+                      Title="Enterprise Grade Calculation" Height="350" Width="525">
+    <Window.Resources>
+        <converter:SuccessToStringConverter x:Key="SuccessToStringConverter"/>
+    </Window.Resources>
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+        <Grid Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="3*" />
+            </Grid.RowDefinitions>
+            <Grid Row="0" ShowGridLines="True" Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Grid.Row="0" Text="{Binding MathsGradeText, Mode=OneTime}"
+                           VerticalAlignment="Center" HorizontalAlignment="Left" />
+                <TextBlock Grid.Column="0" Grid.Row="1" Text="{Binding GerGradeText, Mode=OneTime}"
+                           VerticalAlignment="Center" HorizontalAlignment="Left" />
+                <TextBlock Grid.Column="0" Grid.Row="2" Text="{Binding EnGradeText, Mode=OneTime}"
+                           VerticalAlignment="Center" HorizontalAlignment="Left" />
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding MathsGrade, Mode=TwoWay}"
+                         VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="5,0,0,0"/>
+                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding GerGrade, Mode=TwoWay}" VerticalAlignment="Center"
+                         HorizontalAlignment="Stretch" Margin="5,0,0,0"/>
+                <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding EnGrade, Mode=TwoWay}" VerticalAlignment="Center"
+                         HorizontalAlignment="Stretch" Margin="5,0,0,0"/>
+            </Grid>
+            <Grid Row="2">
+                <StackPanel Orientation="Vertical" Margin="5">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Results.AvgGradeDesc, Mode=OneWay}"/>
+                        <TextBlock Text="{Binding Results.AvgGrade, Mode=OneWay, StringFormat=F1}" Margin="10,0,0,0"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Results.SuccessDesc, Mode=OneWay}"/>
+                        <TextBlock Text="{Binding Results.Success, Mode=OneWay, Converter={StaticResource SuccessToStringConverter}}" Margin="10,0,0,0"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <Grid Column="2" Margin="5">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="{Binding DescriptionText}" TextWrapping="Wrap" Margin="10"/>
+                <Button Content="Calculate" Command="{Binding CalculateCommand}" Margin="10,20,10,0" IsEnabled="{Binding CalcBtnEnabled}"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</controls:MetroWindow>

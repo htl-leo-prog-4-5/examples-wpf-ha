@@ -1,0 +1,68 @@
+﻿<Window x:Class="Wpf.Views.StationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf"
+        xmlns:viewModels="clr-namespace:Wpf.ViewModels;assembly=Wpf.ViewModels"
+        d:DataContext="{d:DesignInstance Type=viewModels:StationViewModel}"
+        mc:Ignorable="d"
+        Title="Railway Station" Height="400" Width="620">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="10,10,10,10">
+            <Label Content="Railway Station Detail:" />
+            <UniformGrid Columns="2">
+                <Label Content="Name" />
+                <TextBlock Text="{Binding RailwayStation.Name}" />
+
+                <Label Content="Code" />
+                <TextBlock Text="{Binding RailwayStation.Code}" />
+            </UniformGrid>
+        </StackPanel>
+
+        <ListView Grid.Row="1" Margin="10,0,10,10"
+                  ItemsSource="{Binding RailwayCompanies}" SelectedItem="{Binding SelectedCompany}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Company" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Code" DisplayMemberBinding="{Binding Code}" />
+                    <GridViewColumn Header="PLZ" DisplayMemberBinding="{Binding  PLZ}" />
+                    <GridViewColumn Header="City" DisplayMemberBinding="{Binding  City}" />
+                    <GridViewColumn Header="Street" DisplayMemberBinding="{Binding   Street}" />
+                    <GridViewColumn Header="Street-No" DisplayMemberBinding="{Binding   StreetNo}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <UniformGrid Grid.Row="2" Columns="2">
+
+            <Label Content="City:" />
+            <TextBox Text="{Binding City, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="{Binding IsNotEditMode}" />
+
+            <Label Content="PLZ:" />
+            <TextBox Text="{Binding PLZ, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="{Binding IsNotEditMode}" />
+
+            <Label Content="Street:" />
+            <TextBox Text="{Binding Street, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="{Binding IsNotEditMode}" />
+
+            <Label Content="Street No:" />
+            <TextBox Text="{Binding StreetNo, UpdateSourceTrigger=PropertyChanged}"
+                     IsReadOnly="{Binding IsNotEditMode}" />
+
+        </UniformGrid>
+
+        <UniformGrid Grid.Row="3" Columns="4">
+            <Button Content="Close" Margin="5" Command="{Binding CloseCommand}" />
+            <Button Content="Edit" Margin="5" Command="{Binding EditCommand}" />
+            <Button Content="Update" Margin="5" Command="{Binding UpdateCommand}" />
+        </UniformGrid>
+    </Grid>
+</Window>

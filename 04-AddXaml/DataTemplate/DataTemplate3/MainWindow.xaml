@@ -1,0 +1,35 @@
+﻿<Window x:Class="DataTemplate3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dataTemplate3="clr-namespace:DataTemplate3"
+        Title="MainWindow" Height="350" Width="525">
+
+    <Window.DataContext>
+        <dataTemplate3:MyDataContext />
+    </Window.DataContext>
+
+    <ItemsControl Margin="10" ItemsSource="{Binding SomeData}">
+        <ItemsControl.ItemTemplate>
+            <DataTemplate>
+                <UniformGrid Columns="4">
+                    <TextBlock Text="{Binding StringData}" />
+                    <TextBlock Text="{Binding Path=IntData}" />
+                    <CheckBox IsChecked="{Binding Path=BoolData}" />
+                    <ItemsControl Margin="10" ItemsSource="{Binding DetailData}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <TextBlock Text="{Binding StringDataDetail}" />
+                                    <TextBlock Text="{Binding Path=IntDataDetail}" />
+                                    <CheckBox IsChecked="{Binding Path=BoolDataDetail}" />
+                                    <Separator />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </UniformGrid>
+            </DataTemplate>
+        </ItemsControl.ItemTemplate>
+    </ItemsControl>
+
+</Window>

@@ -1,0 +1,33 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebUi.Pages.TicketResult.IndexModel
+@{
+    ViewData["Title"] = "Ticket Result";
+}
+
+<div class="row">
+    <h1 class="display-4">Lotto - Ticket Result</h1>
+</div>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="TicketNo" class="control-label"></label>
+        <input asp-for="TicketNo" class="form-control"/>
+        <span asp-validation-for="TicketNo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Search" class="btn btn-primary"/>
+    </div>
+
+</form>
+
+<div>
+    <a asp-page="../Index">Back to home</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

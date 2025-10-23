@@ -1,0 +1,21 @@
+﻿<Window x:Class="LayoutSample.ScrollWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutSample"
+        mc:Ignorable="d"
+        Title="ScrollWindow" Height="300" Width="300">
+    <ScrollViewer HorizontalScrollBarVisibility="Visible">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBox Name="TBLeft" Grid.Row="0" Grid.Column="0" Margin="10,10,10,10" Text="a &#10;b"/>
+            <TextBlock Name="TBRight" Grid.Row="1" Grid.Column="1" Margin="10,10,10,10">
+            a b c d e f g<LineBreak></LineBreak> h i
+            </TextBlock>
+        </Grid>
+    </ScrollViewer>
+</Window>

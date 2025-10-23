@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationDemo3", "ValidationDemo3\ValidationDemo3.csproj", "{F135DC72-7199-4F5D-9D2B-4B86A6155949}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationDemo1", "ValidationDemo1\ValidationDemo1.csproj", "{B2E398EA-E27D-4C3F-87AD-75D7B077B8F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F135DC72-7199-4F5D-9D2B-4B86A6155949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F135DC72-7199-4F5D-9D2B-4B86A6155949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F135DC72-7199-4F5D-9D2B-4B86A6155949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F135DC72-7199-4F5D-9D2B-4B86A6155949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E398EA-E27D-4C3F-87AD-75D7B077B8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E398EA-E27D-4C3F-87AD-75D7B077B8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E398EA-E27D-4C3F-87AD-75D7B077B8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E398EA-E27D-4C3F-87AD-75D7B077B8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {848FE9D5-A798-41BB-9A18-E71449649DBC}
+	EndGlobalSection
+EndGlobal

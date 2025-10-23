@@ -1,0 +1,27 @@
+<!-- location-list.component.html -->
+
+<div class="container mt-3">
+  <h2>Open Games</h2>
+
+  <!-- Tabelle -->
+  <table class="table table-sm">
+    <thead>
+      <tr>
+        <th>From</th>
+        <th>To</th>
+        <th>Draw</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let game of games">
+        <tr>
+          <td>{{ game.dateFrom }}</td>
+          <td>{{ game.dateTo }}</td>
+          <td>{{ game.expectedDrawDate }}</td>
+          <td><button class="btn btn-info btn-sm" (click)="newTicket(game)">New Ticket</button></td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>
